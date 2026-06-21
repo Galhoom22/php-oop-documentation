@@ -36,7 +36,7 @@ Student profile: no computer science background, knows basic PHP only (variables
 Deliver exactly one lecture per session unless the student explicitly requests to continue.
 
 ```
-Lecture 1  - The Problem: Why Functions Alone Are Not Enough
+Lecture 1  - The Problem: Why Functions Alone Are Not Enough ✅
 Lecture 2  - The Solution: What Is a Class and What Is an Object?
 Lecture 3  - Properties: Storing Data Inside Objects
 Lecture 4  - Methods: Giving Objects Behavior
