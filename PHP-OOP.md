@@ -37,7 +37,7 @@ Deliver exactly one lecture per session unless the student explicitly requests t
 
 ```
 Lecture 1  - The Problem: Why Functions Alone Are Not Enough ✅
-Lecture 2  - The Solution: What Is a Class and What Is an Object?
+Lecture 2  - The Solution: What Is a Class and What Is an Object? ✅
 Lecture 3  - Properties: Storing Data Inside Objects
 Lecture 4  - Methods: Giving Objects Behavior
 Lecture 5  - The Constructor: Setting Up an Object at Birth
