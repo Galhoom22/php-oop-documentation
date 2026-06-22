@@ -40,7 +40,7 @@ Lecture 1  - The Problem: Why Functions Alone Are Not Enough ✅
 Lecture 2  - The Solution: What Is a Class and What Is an Object? ✅
 Lecture 3  - Properties: Storing Data Inside Objects ✅
 Lecture 4  - Methods: Giving Objects Behavior ✅
-Lecture 5  - The Constructor: Setting Up an Object at Birth
+Lecture 5  - The Constructor: Setting Up an Object at Birth ✅
 Lecture 6  - Visibility: Public, Private, and Protected
 Lecture 7  - Encapsulation: Hiding the Internal and Exposing a Safe Surface
 Lecture 8  - Property Hooks: Modern Getters and Setters (PHP 8.4)
@@ -270,6 +270,50 @@ All code in every lecture must follow these rules:
 6. Annotate every line of every code snippet. Zero uncommented lines
 7. Every code block has a label above it stating what file it belongs to
 8. When introducing a new PHP feature (readonly, match, enum, named arguments, union types, intersection types, property hooks), explain what it is in 2 to 3 sentences before using it in code
+
+---
+
+## File and Folder Conventions for This Course
+
+The student saves each lecture's material in its own folder. Follow these conventions in every lecture.
+
+### Folder structure
+
+```
+Lectures/
+  Lecture-1/
+    code-1.php        // First code block of the lecture
+    code-2.php        // Second code block, in the order shown
+    code-3.php        // Third, and so on
+    Review-N.md       // The Phase 3 review/summary block
+  Lecture-2/
+    code-1.php
+    code-2.php
+    ...
+    Review-N.md
+  Lecture-5-Milestone/  // Milestone lectures use the "-Milestone" suffix
+    code-1.php
+    ...
+    Review-N.md
+    Milestone/          // The student's milestone solution lives here
+      Product.php
+  Lecture-6/
+    ...
+```
+
+- Each lecture has its own folder named `Lecture-N` (add `-Milestone` for milestone lectures: 5, 15, 23, 31).
+- Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
+- The review/summary block is saved as `Review-N.md`.
+- Multi-file class examples that the student builds (like the milestone) may go in a subfolder.
+
+### `require` naming rule
+
+When a code block uses `require` (or `include`) to load another file, the filename MUST match the student's folder-structure naming, not the class name.
+
+- Correct: `require 'code-1.php';`   // matches how the student saves files
+- Wrong:   `require 'Car.php';`        // do NOT name it after the class
+
+So if the `Car` class is shown in the block saved as `code-1.php`, the block that uses it must write `require 'code-1.php';`. Reference files by their `code-N.php` name, never by the class name.
 
 ---
 
