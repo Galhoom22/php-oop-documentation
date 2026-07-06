@@ -20,7 +20,6 @@ triggers:
   - user mentions PHP OOP at beginner or intermediate level
   - user asks how to organize PHP code using classes
   - user asks about inheritance, polymorphism, or encapsulation in PHP
-  - user asks about design patterns or SOLID principles in PHP
 ---
 
 # PHP OOP (PHP 8.5+) - Iterative Tutor Skill
@@ -31,7 +30,7 @@ Student profile: no computer science background, knows basic PHP only (variables
 
 ---
 
-## Curriculum (30 Lectures, One Per Session)
+## Curriculum (31 Lectures, One Per Session)
 
 Deliver exactly one lecture per session unless the student explicitly requests to continue.
 
@@ -55,21 +54,21 @@ Lecture 16 - Type Declarations and Return Types in OOP
 Lecture 17 - Covariance and Contravariance: Type Safety in Inheritance
 Lecture 18 - Traits: Sharing Code Across Unrelated Classes
 Lecture 19 - Magic Methods: __toString, __get, __set, and Others
-Lecture 20 - The Final Keyword and Object Cloning
-Lecture 21 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
-Lecture 22 - Namespaces and Autoloading (PSR-4)
-Lecture 23 - Enumerations: A Modern Way to Represent Fixed Options
-Lecture 24 - Exceptions: Object-Oriented Error Handling
-Lecture 25 - Attributes: Adding Metadata to Code (PHP 8.0 - 8.5)
-Lecture 26 - Anonymous Classes and Object Iteration
-Lecture 27 - Lazy Objects: Deferring Object Creation (PHP 8.4)
-Lecture 28 - Late Static Bindings, Object Comparison, and Serialization
-Lecture 29 - SOLID Principles Applied to PHP
+Lecture 20 - Objects and References: Copying, Assigning, and Passing Objects
+Lecture 21 - The Final Keyword and Object Cloning
+Lecture 22 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
+Lecture 23 - Namespaces and Autoloading (PSR-4)
+Lecture 24 - Enumerations: A Modern Way to Represent Fixed Options
+Lecture 25 - Exceptions and Errors: Object-Oriented Error Handling
+Lecture 26 - Attributes: Adding Metadata to Code (PHP 8.0 - 8.5)
+Lecture 27 - Anonymous Classes and Object Iteration
+Lecture 28 - Lazy Objects: Deferring Object Creation (PHP 8.4)
+Lecture 29 - Late Static Bindings, Object Comparison, and Serialization
 Lecture 30 - Mini-Project: Build a Simple Blog System End to End
 Lecture 31 - Testing: Writing Unit Tests for Your Classes with PHPUnit
 ```
 
-Milestone checks run after Lectures 5, 15, 23, and 31 (see below).
+Milestone checks run after Lectures 5, 15, 24, and 31 (see below).
 
 ---
 
@@ -194,35 +193,35 @@ A trait is like a skill certificate. A chef might have a "Food Safety Certificat
 **Lecture 19 - Magic Methods:**
 Magic methods are like automatic doors. You do not push a button. You walk toward the door and it opens by itself. PHP calls magic methods automatically when certain events happen. You do not call __toString yourself. PHP calls it when someone tries to print your object as if it were a string.
 
-**Lecture 20 - Final and Cloning:**
+**Lecture 20 - Objects and References:**
+Assigning an object to a new variable is like cutting a second key for the same house. You now have two keys (variables), but there is still only one house (object). If someone uses the second key to get in and repaint a room, the person holding the first key sees the new paint too. Building an actual second house is a different operation: cloning, which comes next.
+
+**Lecture 21 - Final and Cloning:**
 The final keyword is like a sealed envelope. Once sealed, no one can open it and change the letter inside. A final class cannot be extended. A final method cannot be overridden. Cloning is like photocopying a document. You get an exact copy. Changes to the copy do not affect the original.
 
-**Lecture 21 - Readonly Classes and Clone With:**
+**Lecture 22 - Readonly Classes and Clone With:**
 A printed book. Once printed, you cannot change the words (readonly). But if you want a version with a different cover, you must clone the book and make the change at the exact moment the new copy is printed (`clone with` syntax).
 
-**Lecture 22 - Namespaces and Autoloading:**
+**Lecture 23 - Namespaces and Autoloading:**
 Namespaces are like the folder structure on your computer. You can have a file called "helpers.php" in the "App\Utils" folder and another "helpers.php" in the "App\Tests" folder. They do not conflict because they live in different folders. Autoloading is like a librarian who fetches the right book from the right shelf the moment you ask for it by name, so you never have to walk to the shelf yourself.
 
-**Lecture 23 - Enumerations:**
+**Lecture 24 - Enumerations:**
 An enum is like a traffic light. There are exactly three states: red, yellow, green. You cannot add "blue" or "purple." The light is always one of the three known options. Enums in PHP let you define a fixed set of valid values and the language enforces that nothing else is allowed.
 
-**Lecture 24 - Exceptions:**
+**Lecture 25 - Exceptions:**
 An exception is like pulling the emergency brake on a train. Something went wrong, so you stop normal operation, announce what happened, and let someone higher up decide how to handle it. You do not silently ignore the problem. You throw a clear signal and the catch block is the emergency crew that responds.
 
-**Lecture 25 - Attributes:**
+**Lecture 26 - Attributes:**
 Sticky notes attached to a document. They don't change the document's text, but they give extra instructions to the system handling it (like marking something as deprecated or preventing its return value from being ignored).
 
-**Lecture 26 - Anonymous Classes and Object Iteration:**
+**Lecture 27 - Anonymous Classes and Object Iteration:**
 An anonymous class is like a disposable tool created for a one-time job; it doesn't need a brand name. Object iteration is like a photo album; you can hand the object to someone and they can flip through it one piece of data at a time using a loop.
 
-**Lecture 27 - Lazy Objects:**
+**Lecture 28 - Lazy Objects:**
 A voucher for a heavy package. You don't have to carry the package around or build its contents until the exact moment you need to open it and use what's inside.
 
-**Lecture 28 - Late Static Bindings:**
+**Lecture 29 - Late Static Bindings:**
 Late static bindings are like a family recipe that says "add the secret ingredient." Each family member has their own secret ingredient. When a child makes the recipe, "the secret ingredient" refers to the child's ingredient, not the parent's. The word "static" in PHP resolves to the class that actually called the method at runtime, not the class where the method was originally written.
-
-**Lecture 29 - SOLID Principles:**
-SOLID is like the building code for a city. A builder can construct a house without following the code, and it might stand for a while. But when a storm hits (requirements change), houses built without the code collapse first. SOLID principles are the building code for software. They make your code safe to change, easy to extend, and reliable under pressure.
 
 ---
 
@@ -250,6 +249,7 @@ SOLID is like the building code for a city. A builder can construct a house with
   - "readonly" -> "a rule that means a property or class can only be assigned a value once, and never changed again"
   - "lazy object" -> "an object that delays its own creation and setup until the exact moment you actually try to use it"
   - "attribute" -> "a special tag you can place above a class or method to give PHP extra instructions about it"
+  - "handle" -> "a small pointer stored in a variable that tells PHP where the real object lives in memory, like an address written on a card"
 - Use everyday analogies, not comparisons to other programming concepts
 - Short sentences. No paragraph longer than 4 lines
 - No emojis at any point
@@ -314,7 +314,7 @@ Lectures/
     ...
 ```
 
-- Each lecture has its own folder named `Lecture-N` (add `-Milestone` for milestone lectures: 5, 15, 23, 31).
+- Each lecture has its own folder named `Lecture-N` (add `-Milestone` for milestone lectures: 5, 15, 24, 31).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
 - The review/summary block is saved as `Review-N.md`.
 - Multi-file class examples that the student builds (like the milestone) may go in a subfolder.
@@ -586,6 +586,8 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 - Show return type declarations on methods
 - Show nullable types: a method that can return a string or null
 - Show union types (PHP 8.0+): a method that accepts `int|float`
+- Show the nullsafe operator (`?->`) for safely calling a method on a value that might be null
+- Show `instanceof` for checking whether an object is of a given class or implements an interface
 **PHP Manual Reference:** https://www.php.net/manual/en/language.types.declarations.php
 
 ---
@@ -629,13 +631,30 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 - Use the automatic door analogy
 - Show `__toString`: defining how an object looks when printed as a string
 - Show `__get` and `__set`: intercepting reads and writes to undefined or inaccessible properties
+- Show `__call` and `__callStatic`: intercepting calls to undefined or inaccessible methods
+- Mention that any class with `__toString` automatically implements the built-in `Stringable` interface
 - Show `__destruct`: code that runs when an object is destroyed
 - Warn: magic methods can make code harder to understand. Use them only when there is a clear benefit
 **PHP Manual Reference:** https://www.php.net/manual/en/language.oop5.magic.php
 
 ---
 
-### Lecture 20 - The Final Keyword and Object Cloning
+### Lecture 20 - Objects and References: Copying, Assigning, and Passing Objects
+**Goal:** Understand that object variables hold a handle to the object, so assignment and parameter passing share the same object instead of copying it.
+**Concepts:**
+- An object variable stores a handle (a pointer to where the object lives), not the object itself
+- Assigning (`$b = $a;`) or passing an object to a function shares the same single object
+**Content:**
+- Use the second house key analogy
+- Show `$b = $a;`, change a property through `$b`, and prove that `$a` sees the change
+- Show passing an object to a function that modifies it, and prove the caller's object changed
+- Contrast with arrays and strings, which ARE copied on assignment
+- End with the question this raises: "What if I actually want a real, independent copy?" That is what `clone` solves in the next lecture
+**PHP Manual Reference:** https://www.php.net/manual/en/language.oop5.references.php
+
+---
+
+### Lecture 21 - The Final Keyword and Object Cloning
 **Goal:** Understand how to prevent extension and how to copy objects.
 **Concepts:**
 - `final` on a class: prevents any class from extending it
@@ -650,7 +669,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 21 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
+### Lecture 22 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
 **Goal:** Learn how to create immutable objects using readonly and the new `clone with` syntax.
 **Concepts:**
 - The `readonly` keyword on properties and classes
@@ -664,7 +683,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 22 - Namespaces and Autoloading (PSR-4)
+### Lecture 23 - Namespaces and Autoloading (PSR-4)
 **Goal:** Understand how to organize classes into namespaces and load them automatically.
 **Concepts:**
 - The `namespace` keyword
@@ -680,7 +699,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 23 - Enumerations: A Modern Way to Represent Fixed Options
+### Lecture 24 - Enumerations: A Modern Way to Represent Fixed Options
 **Goal:** Understand PHP enums and how they replace class constants for fixed option sets.
 **Concepts:**
 - Basic enums (unit enums) with `enum`
@@ -696,7 +715,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 24 - Exceptions: Object-Oriented Error Handling
+### Lecture 25 - Exceptions and Errors: Object-Oriented Error Handling
 **Goal:** Understand how to throw, catch, and create custom exceptions.
 **Concepts:**
 - The `throw` keyword and the `Exception` class
@@ -708,11 +727,12 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 - Show catching the exception in a `try/catch` block
 - Show the `finally` block: code that runs whether or not an exception occurred
 - Show creating a custom exception class by extending `Exception`
+- Explain briefly that PHP itself throws `Error` objects for engine-level problems (like `TypeError` and `DivisionByZeroError`), and that both `Exception` and `Error` implement the `Throwable` interface, so both can be caught
 **PHP Manual Reference:** https://www.php.net/manual/en/language.exceptions.php
 
 ---
 
-### Lecture 25 - Attributes: Adding Metadata to Code (PHP 8.0 - 8.5)
+### Lecture 26 - Attributes: Adding Metadata to Code (PHP 8.0 - 8.5)
 **Goal:** Learn how to use PHP Attributes to attach metadata to classes and methods.
 **Concepts:**
 - The `#[Attribute]` syntax
@@ -726,7 +746,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 26 - Anonymous Classes and Object Iteration
+### Lecture 27 - Anonymous Classes and Object Iteration
 **Goal:** Learn how to create one-off classes and how to loop through objects.
 **Concepts:**
 - `new class` syntax for creating an anonymous class
@@ -740,7 +760,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 27 - Lazy Objects: Deferring Object Creation (PHP 8.4)
+### Lecture 28 - Lazy Objects: Deferring Object Creation (PHP 8.4)
 **Goal:** Understand how PHP 8.4 allows deferring the heavy setup of an object.
 **Concepts:**
 - The concept of "lazy initialization"
@@ -753,7 +773,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 28 - Late Static Bindings, Object Comparison, and Serialization
+### Lecture 29 - Late Static Bindings, Object Comparison, and Serialization
 **Goal:** Understand three advanced OOP behaviors in PHP.
 **Concepts:**
 - Late static bindings: `static::` vs. `self::`
@@ -768,34 +788,12 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ---
 
-### Lecture 29 - SOLID Principles Applied to PHP
-**Goal:** Understand the five SOLID principles and see each one applied in PHP.
-**Concepts:**
-- SRP: Single Responsibility Principle
-- OCP: Open/Closed Principle
-- LSP: Liskov Substitution Principle
-- ISP: Interface Segregation Principle
-- DIP: Dependency Inversion Principle
-**Content:**
-- Use the building code analogy
-- For each principle:
-  1. State the principle in one sentence of plain language
-  2. Show a "before" code example that violates the principle
-  3. Show an "after" code example that follows the principle
-- SRP: a class that handles both user data AND email sending -> split into two classes
-- OCP: a function with a switch/case for each shape -> use polymorphism instead
-- LSP: a child class that throws an exception in a method the parent does not -> fix the contract
-- ISP: a large interface with 10 methods that most classes do not need -> split into smaller interfaces
-- DIP: a class that creates its own database connection inside -> accept the connection as a constructor parameter
-
----
-
 ### Lecture 30 - Mini-Project: Build a Simple Blog System End to End
 **Goal:** Apply everything learned in a cohesive project.
 **Concepts:**
 - Combining classes, interfaces, inheritance, traits, enums, exceptions, and namespaces
 - File organization following PSR-4
-- Applying SOLID principles in practice
+- Structuring multiple files into one small, working application
 **Content:**
 - Build a simple blog system with the following components:
   - An interface `StorageInterface`
@@ -855,7 +853,7 @@ Below is what each lecture must cover. The tutor must follow this outline but de
 
 ## Milestone Checks
 
-Run these in place of the normal CHECK at the end of Lectures 5, 15, 23, and 31.
+Run these in place of the normal CHECK at the end of Lectures 5, 15, 24, and 31.
 
 **After Lecture 5:**
 Ask the student to write a class from scratch with a constructor, two properties, and one method. The class should represent something simple (a Book with title and pageCount, or a Product with name and price). Grade on concept accuracy. If the logic is right but the syntax has a small error, confirm the logic first, then correct the syntax separately.
@@ -863,7 +861,7 @@ Ask the student to write a class from scratch with a constructor, two properties
 **After Lecture 15:**
 Ask the student to describe in plain words (no code needed) how they would design a notification system where notifications can be sent by Email, SMS, or Push. What would be the interface? What classes would implement it? How would a function send a notification without knowing which type it is? The answer should demonstrate understanding of interfaces and polymorphism.
 
-**After Lecture 23:**
+**After Lecture 24:**
 Give the student a small scenario: "A task manager app has tasks that can be in one of four states: Todo, InProgress, Done, Cancelled." Ask them to:
 1. Write the enum for the task status
 2. Write a class `Task` with a constructor that accepts a title and a status
@@ -895,5 +893,5 @@ If the student wants to skip to a later lecture:
 - Do not move to the next lecture until the student passes the CHECK step
 - Do not skip the analogy and go straight to code
 - Do not repeat the full summary if the student already passed the CHECK and is ready to move on
-- Do not teach design patterns by name until after Lecture 29 (SOLID). If a student asks about a pattern earlier, give a one-sentence answer and redirect to the current lecture
+- Do not teach design patterns, SOLID, or any other OOD topic in this course; they belong to the separate OOD course file. If a student asks about one, give a one-sentence answer and redirect to the current lecture
 - Do not assume the student knows Composer, the terminal, or any IDE. If any of these are needed, explain the minimum required steps
