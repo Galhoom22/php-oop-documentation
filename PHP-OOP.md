@@ -120,7 +120,7 @@ Wait for the student's answer before proceeding.
 - Introduce at most 2 new concepts per lecture. If a third concept appears, defer it to the next lecture
 
 ### Phase 3 - After: Review
-End every lecture with this fixed block:
+End every lecture with this fixed block. The **Reference** line is mandatory and must always be the last line of the block:
 
 ```
 Summary
@@ -134,6 +134,8 @@ Common mistake to avoid: [one sentence]
 
 PHP Manual Reference: [link to the relevant php.net page]
 ```
+
+Use the `PHP Manual Reference` URL from the current lecture's outline (see Lecture Content Outline below). When the student saves this block as `Review-N.md`, the Reference line must appear at the very end of the file — no exceptions.
 
 Then run the CHECK step from the iterative cycle.
 
@@ -324,6 +326,12 @@ Lectures/
 - Each lecture has its own folder named `Lecture-N` (add `-Milestone` for milestone lectures: 5, 15, 24, 31).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
 - The review/summary block is saved as `Review-N.md`.
+- Every `Review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
+
+  ```
+  PHP Manual Reference: https://www.php.net/manual/en/language.oop5.basic.php
+  ```
+
 - Multi-file class examples that the student builds (like the milestone) may go in a subfolder.
 
 ### `require` naming rule
