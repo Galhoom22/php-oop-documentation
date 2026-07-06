@@ -42,7 +42,7 @@ Lecture 3  - Properties: Storing Data Inside Objects ✅
 Lecture 4  - Methods: Giving Objects Behavior ✅
 Lecture 5  - The Constructor: Setting Up an Object at Birth ✅
 Lecture 6  - Visibility: Public, Private, and Protected ✅
-Lecture 7  - Encapsulation: Hiding the Internal and Exposing a Safe Surface
+Lecture 7  - Encapsulation: Hiding the Internal and Exposing a Safe Surface ✅
 Lecture 8  - Property Hooks: Modern Getters and Setters (PHP 8.4)
 Lecture 9  - Asymmetric Visibility: Fine-Tuning Encapsulation (PHP 8.4)
 Lecture 10 - Inheritance: Building New Classes from Existing Ones
