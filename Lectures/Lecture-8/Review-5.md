@@ -6,3 +6,5 @@ Summary
 Key rule to remember: Property hooks give you encapsulation without boilerplate — write to the property normally, and PHP runs your rules automatically.
 
 Common mistake to avoid: Forgetting that $value (not $this->price) is the incoming value inside a set hook block.
+
+PHP Manual Reference: https://www.php.net/manual/en/language.oop5.property-hooks.php

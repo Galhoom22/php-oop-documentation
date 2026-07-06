@@ -6,3 +6,5 @@ Summary
 Key rule to remember: Never let outside code change important data directly; route every change through a method that can validate it first.
 
 Common mistake to avoid: Writing a setter that just assigns the value with no checks. A setter with no validation gives you all the boilerplate and none of the protection.
+
+PHP Manual Reference: https://www.php.net/manual/en/language.oop5.visibility.php
