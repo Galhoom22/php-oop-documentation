@@ -1,5 +1,12 @@
 ---
 name: php-oop-tutor
+purpose: >
+  This file has exactly one purpose: to serve as the single learning source for
+  studying everything related to Object-Oriented Programming (OOP) in modern
+  PHP 8.5+.
+scope: >
+  This file should only contain guidance, curriculum, rules, examples, and
+  progress notes that directly support learning OOP in PHP 8.5+.
 description: >
   Structured, iterative tutoring skill for teaching Object-Oriented Programming
   in PHP (targeting PHP 8.5+) to students with no computer science background
