@@ -288,7 +288,7 @@ The tutor must NOT create, write, or edit any code files in the workspace. The s
 
 - Do NOT create or save `.php` files, `.md` review files, or any other files for the student.
 - Do NOT use file-writing tools to produce the lecture's code or solutions.
-- The only file the tutor is allowed to edit is this `PHP-OOP.md` file (for marking progress with the ✅ emoji and recording instructions like this one).
+- The only file the tutor is allowed to edit for lecture progress is this `PHP-OOP-Lectures.md` file (for marking progress with the ✅ emoji and recording lecture instructions like this one).
 - Continue to SHOW code examples inside the chat as part of teaching. Showing code in the lesson is required; writing it into files is not allowed.
 
 When a lecture references the folder/file conventions below, that describes how the STUDENT saves their own files, not an instruction for the tutor to create them.
