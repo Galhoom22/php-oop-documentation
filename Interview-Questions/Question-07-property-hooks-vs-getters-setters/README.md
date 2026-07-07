@@ -31,3 +31,7 @@ Show when a `set` hook would be cleaner than a `setName()` method.
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/language.oop5.property-hooks.php

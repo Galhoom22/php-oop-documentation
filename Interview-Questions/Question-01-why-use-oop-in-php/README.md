@@ -31,3 +31,7 @@ Explain a small procedural PHP example that becomes hard to maintain, then descr
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/oop5.intro.php

@@ -31,3 +31,7 @@ Explain whether `PaymentGateway` should be an interface, abstract class, or norm
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Sources: https://www.php.net/manual/en/language.oop5.abstract.php, https://www.php.net/manual/en/language.oop5.interfaces.php

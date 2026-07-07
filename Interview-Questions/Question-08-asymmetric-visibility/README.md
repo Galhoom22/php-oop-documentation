@@ -31,3 +31,7 @@ Explain why an order ID should usually be readable from outside but not writable
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/language.oop5.visibility.php

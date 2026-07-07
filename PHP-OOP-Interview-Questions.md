@@ -38,6 +38,7 @@ Every interview question must be handled like a lecture:
 - Write code only when the answer genuinely needs code.
 - Ask one CHECK task at the end.
 - Mark the question with ✅ only after the student can answer it clearly and pass the practice task.
+- Always keep a `Source:` line at the end of each question folder's `README.md`, pointing to the reference used for that question.
 
 This track stays inside PHP OOP. Do not teach design patterns, SOLID, or broad OOD theory here; those belong to the separate OOD course.
 
@@ -75,6 +76,44 @@ Question 28 - What is the difference between self:: and static::?
 Question 29 - What is the difference between comparing objects with == and ===?
 Question 30 - What is object serialization, and what should you be careful about?
 Question 31 - How would you test an OOP PHP class with PHPUnit?
+```
+
+---
+
+## Question Source Map
+
+```
+Question 01 Source: https://www.php.net/manual/en/oop5.intro.php
+Question 02 Source: https://www.php.net/manual/en/language.oop5.basic.php
+Question 03 Source: https://www.php.net/manual/en/language.oop5.properties.php
+Question 04 Source: https://www.php.net/manual/en/language.oop5.decon.php
+Question 05 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 06 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 07 Source: https://www.php.net/manual/en/language.oop5.property-hooks.php
+Question 08 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 09 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
+Question 10 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
+Question 11 Source: https://www.php.net/manual/en/language.oop5.static.php
+Question 12 Sources: https://www.php.net/manual/en/language.oop5.abstract.php, https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 13 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 14 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 15 Source: https://www.php.net/manual/en/language.types.declarations.php
+Question 16 Source: https://www.php.net/manual/en/language.oop5.variance.php
+Question 17 Source: https://www.php.net/manual/en/language.oop5.traits.php
+Question 18 Source: https://www.php.net/manual/en/language.oop5.magic.php
+Question 19 Source: https://www.php.net/manual/en/language.oop5.references.php
+Question 20 Sources: https://www.php.net/manual/en/language.oop5.final.php, https://www.php.net/manual/en/language.oop5.cloning.php
+Question 21 Source: https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties
+Question 22 Sources: https://www.php.net/manual/en/language.namespaces.php, https://www.php.net/manual/en/function.spl-autoload-register.php
+Question 23 Source: https://www.php.net/manual/en/language.enumerations.php
+Question 24 Source: https://www.php.net/manual/en/language.exceptions.php
+Question 25 Source: https://www.php.net/manual/en/language.attributes.php
+Question 26 Source: https://www.php.net/manual/en/language.oop5.anonymous.php
+Question 27 Source: https://www.php.net/manual/en/language.oop5.lazy-objects.php
+Question 28 Source: https://www.php.net/manual/en/language.oop5.late-static-bindings.php
+Question 29 Source: https://www.php.net/manual/en/language.oop5.object-comparison.php
+Question 30 Source: https://www.php.net/manual/en/language.oop5.serialization.php
+Question 31 Source: https://docs.phpunit.de/en/12.2/writing-tests-for-phpunit.html
 ```
 
 ---
@@ -127,12 +166,24 @@ All code shown or practiced in this track must follow these rules:
 
 ---
 
+## Source Reference Rules
+
+Every interview question must include a source reference, similar to the lecture `PHP Manual Reference` rule.
+
+- Each question folder's `README.md` must end with a `Source:` line.
+- Use the official PHP Manual when the question is about PHP language behavior.
+- Use official tool documentation when the question is about a tool, such as PHPUnit.
+- If one question depends on more than one official page, write `Sources:` and include all relevant links.
+- The source line must be the final line in the `README.md`.
+
+---
+
 ## Interview Questions Folder Structure
 
 ```
 Interview-Questions/
   Question-01-why-use-oop-in-php/
-    README.md
+    README.md         // Must end with Source or Sources
     code-1.php        // Student-created code attempt if needed
     code-2.php        // Optional improved attempt after feedback
     notes.md          // Optional final answer in the student's own words
@@ -301,6 +352,7 @@ Each question folder contains a `README.md` with:
 - What a strong answer should cover.
 - A practice task.
 - The completion rule.
+- The source reference as the final line.
 
 When a question is completed:
 1. Update its folder `README.md` status from `Not completed` to `Completed`.

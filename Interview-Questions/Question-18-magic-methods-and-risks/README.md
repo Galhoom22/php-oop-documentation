@@ -31,3 +31,7 @@ Explain one valid use for `__toString()` and one risk of using `__get()` heavily
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/language.oop5.magic.php

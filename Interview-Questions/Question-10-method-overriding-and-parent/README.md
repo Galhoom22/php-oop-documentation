@@ -31,3 +31,7 @@ Describe a child logger that adds file writing while still using the parent logg
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/language.oop5.inheritance.php

@@ -31,3 +31,7 @@ Map `App\Models\Post` to a likely file path in a PSR-4 project.
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Sources: https://www.php.net/manual/en/language.namespaces.php, https://www.php.net/manual/en/function.spl-autoload-register.php

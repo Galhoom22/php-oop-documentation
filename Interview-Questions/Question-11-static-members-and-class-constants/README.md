@@ -31,3 +31,7 @@ Give one example of a good class constant and one example where a static propert
 ## Completion Rule
 
 After you can answer this question clearly and solve the practice task, mark the question with the check mark in `PHP-OOP-Interview-Questions.md`.
+
+## Source
+
+Source: https://www.php.net/manual/en/language.oop5.static.php
