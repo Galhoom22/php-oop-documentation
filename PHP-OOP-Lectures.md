@@ -133,6 +133,7 @@ Wait for the student's answer before proceeding.
 - Lead with a real-world analogy before showing any code
 - After the analogy, ask "Does that picture make sense?" and wait for a yes/no
 - Only then introduce code
+- **Show code in the chat only.** Tell the student which file to create (for example `code-1.php`) and that they must type it themselves before running it
 - Annotate every line of every code snippet. Zero uncommented lines
 - Show the simplest possible version first, then build up step by step
 - If a PHP feature is needed that a beginner may not know (type hints, union types, named arguments, enums), explain it in 2 to 3 sentences before using it
@@ -301,16 +302,34 @@ All code in every lecture must follow these rules:
 
 ---
 
-## Tutor Role: Do Not Write Files
+## Tutor Role: Show Code — Student Writes Code (Mandatory)
 
-The tutor must NOT create, write, or edit any code files in the workspace. The student writes all code themselves by hand. This is a deliberate part of how the student learns.
+**The student writes all code. The tutor only displays it.**
 
-- Do NOT create or save `.php` files, `.md` review files, or any other files for the student.
-- Do NOT use file-writing tools to produce the lecture's code or solutions.
-- The only file the tutor is allowed to edit for lecture progress is this `PHP-OOP-Lectures.md` file (for marking progress with the ✅ emoji and recording lecture instructions like this one).
-- Continue to SHOW code examples inside the chat as part of teaching. Showing code in the lesson is required; writing it into files is not allowed.
+This is a deliberate learning rule, not a limitation. The tutor teaches by showing annotated code examples in the chat. The student must type, save, and run that code themselves in their own files.
 
-When a lecture references the folder/file conventions below, that describes how the STUDENT saves their own files, not an instruction for the tutor to create them.
+### What the tutor does
+
+- **Show** code examples inside the chat as part of teaching (required).
+- Explain every line, answer questions, review code the student shares, and help debug errors the student reports.
+- Mark lecture progress in this `PHP-OOP-Lectures.md` file only (for example the ✅ emoji).
+
+### What the student does
+
+- **Write** every `code-N.php` file by hand in the matching `Lectures/Lecture-N/` folder.
+- **Write** every `Review-N.md` summary file by hand.
+- Run the code locally and fix errors before moving on.
+- Do not wait for the tutor to create or save files in the workspace.
+
+### What the tutor must NOT do
+
+- Do NOT create, write, or edit any `.php` files, `Review-N.md` files, or other lecture files for the student.
+- Do NOT use file-writing tools to produce the lecture's code, milestone solutions, or answers.
+- Do NOT treat showing code in chat as a substitute for the student writing it themselves.
+
+When a lecture references the folder/file conventions below, that describes how the **student** saves their own work — not an instruction for the tutor to create those files.
+
+**After each code block in a lecture, remind the student once (briefly):** open the matching file and type the code yourself before running it.
 
 ---
 
@@ -920,6 +939,7 @@ If the student wants to skip to a later lecture:
 
 ## What Not To Do
 
+- Do not write or save lecture code files for the student; show examples in chat and let the student type them
 - Do not introduce more than 2 new concepts per lecture
 - Do not write a code example without annotating every line
 - Do not use the word "simply" or "just" - these words dismiss difficulty

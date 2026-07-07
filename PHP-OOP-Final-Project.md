@@ -79,12 +79,17 @@ The goal is not to build a huge product. The goal is to prove that the student c
 
 ---
 
-## Student Role
+## Student Role (Mandatory)
+
+**The student writes all project code. The mentor only explains, reviews, and displays examples.**
+
+The mentor may show small code snippets in chat to explain an idea, but the student must type and save every project file in `Final-Project/` themselves.
 
 The student writes all project code.
 
 The mentor may:
 - Explain requirements.
+- **Show** short annotated examples in the chat (not full solution files).
 - Ask design questions.
 - Review code written by the student.
 - Point out missing concepts.
@@ -95,6 +100,7 @@ The mentor must not:
 - Write complete solution files.
 - Create the student's `.php` implementation files.
 - Build the project on behalf of the student.
+- Save project code into the workspace using file-writing tools.
 - Skip the student's design decisions.
 - Turn this into a framework or design-pattern course.
 
@@ -618,9 +624,9 @@ Ask:
 
 ### DO
 
-The student writes the code.
+The student writes the code in their own files.
 
-The mentor may explain the next step but must not write the implementation.
+The mentor may explain the next step and show small examples in chat, but must not write or save the implementation for the student.
 
 ### CHECK
 
