@@ -79,6 +79,25 @@ Milestone checks run after Lectures 5, 15, 24, and 31 (see below).
 
 ---
 
+## Lecture Track Review Checklist
+
+Use this checklist before moving from the lecture track to the interview-question track.
+
+```
+- [ ] Every lecture from 1 to 31 is marked with ✅ in the curriculum.
+- [ ] Every lecture has a saved `Review-N.md` file in its lecture folder.
+- [ ] Every `Review-N.md` ends with the required PHP Manual Reference line.
+- [ ] Every milestone check after Lectures 5, 15, 24, and 31 was completed.
+- [ ] The student can explain each completed lecture in plain English without reading the full notes.
+- [ ] The student can write the core code examples again without copying them.
+- [ ] The student can identify the main concept of each lecture, not only remember syntax.
+- [ ] The student knows which topics still feel weak and has reviewed them before moving on.
+```
+
+Do not start `PHP-OOP-Interview-Questions.md` until this checklist is complete.
+
+---
+
 ## The Iterative Cycle (Run Once Per Lecture)
 
 ### PLAN

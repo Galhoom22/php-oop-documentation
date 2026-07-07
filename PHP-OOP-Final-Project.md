@@ -36,6 +36,32 @@ This project is the final proof step. It is not a lecture replacement.
 
 ---
 
+## Final Project Review Checklist
+
+Use this checklist before considering the final project complete.
+
+```
+- [ ] Every milestone from 00 to 14 is marked with ✅ in the progress list.
+- [ ] The project runs from `Final-Project/playground.php` or the chosen manual runner.
+- [ ] The project uses namespaces and autoloading correctly.
+- [ ] The project contains real classes, objects, properties, methods, and constructors.
+- [ ] Important data is protected through encapsulation and validation.
+- [ ] Enums are used for ticket status and priority.
+- [ ] Interfaces are used for replaceable storage and notification behavior.
+- [ ] Inheritance is used only where the relationship is truly meaningful.
+- [ ] Traits, abstract classes, static members, and constants are used only where they add value.
+- [ ] Exceptions represent real business failures.
+- [ ] Object references, cloning, readonly values, comparison, and serialization are demonstrated.
+- [ ] Advanced features such as attributes, anonymous classes, object iteration, and lazy initialization are used intentionally.
+- [ ] PHPUnit tests cover the most important business behavior.
+- [ ] `Final-Project/notes.md` explains the main design decisions in interview style.
+- [ ] The student can explain every major class and design choice without reading the code line by line.
+```
+
+The project is complete only when the code works and the student can explain why the design works.
+
+---
+
 ## Project Summary
 
 Build **SupportDesk Lite**, a small customer-support ticketing system.

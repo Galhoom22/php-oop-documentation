@@ -42,6 +42,24 @@ Every interview question must be handled like a lecture:
 
 This track stays inside PHP OOP. Do not teach design patterns, SOLID, or broad OOD theory here; those belong to the separate OOD course.
 
+### Interview Track Review Checklist
+
+Use this checklist before moving from the interview-question track to the final project.
+
+```
+- [ ] Every interview question from 1 to 31 is marked with ✅ in the progress list.
+- [ ] Every question folder has a `README.md`.
+- [ ] Every question folder `README.md` ends with a `Source:` or `Sources:` line.
+- [ ] Every completed question folder has `Status: Completed`.
+- [ ] The student can answer each question out loud in interview style.
+- [ ] The student can explain the code-based questions without copying the answer.
+- [ ] The student can connect each interview question back to the related lecture.
+- [ ] The student has written `notes.md` for any question that felt difficult.
+- [ ] Weak questions were repeated until the student could answer clearly and confidently.
+```
+
+Do not start `PHP-OOP-Final-Project.md` until this checklist is complete.
+
 ### Interview Question Progress
 
 ```
