@@ -85,8 +85,8 @@ Use this checklist before moving from the lecture track to the interview-questio
 
 ```
 - [ ] Every lecture from 1 to 31 is marked with ✅ in the curriculum.
-- [ ] Every lecture has a saved `Review-N.md` file in its lecture folder.
-- [ ] Every `Review-N.md` ends with the required PHP Manual Reference line.
+- [ ] Every lecture has a saved `review-N.md` file in its lecture folder.
+- [ ] Every `review-N.md` ends with the required PHP Manual Reference line.
 - [ ] Every milestone check after Lectures 5, 15, 24, and 31 was completed.
 - [ ] The student can explain each completed lecture in plain English without reading the full notes.
 - [ ] The student can write the core code examples again without copying them.
@@ -155,7 +155,7 @@ Common mistake to avoid: [one sentence]
 PHP Manual Reference: [link to the relevant php.net page]
 ```
 
-Use the `PHP Manual Reference` URL from the current lecture's outline (see Lecture Content Outline below). When the student saves this block as `Review-N.md`, the Reference line must appear at the very end of the file — no exceptions.
+Use the `PHP Manual Reference` URL from the current lecture's outline (see Lecture Content Outline below). When the student saves this block as `review-N.md`, the Reference line must appear at the very end of the file — no exceptions.
 
 Then run the CHECK step from the iterative cycle.
 
@@ -316,14 +316,14 @@ This is a deliberate learning rule, not a limitation. The tutor teaches by showi
 
 ### What the student does
 
-- **Write** every `code-N.php` file by hand in the matching `Lectures/Lecture-N/` folder.
-- **Write** every `Review-N.md` summary file by hand.
+- **Write** every `code-N.php` file by hand in the matching `Lectures/Lecture-NN/` folder.
+- **Write** every `review-N.md` summary file by hand.
 - Run the code locally and fix errors before moving on.
 - Do not wait for the tutor to create or save files in the workspace.
 
 ### What the tutor must NOT do
 
-- Do NOT create, write, or edit any `.php` files, `Review-N.md` files, or other lecture files for the student.
+- Do NOT create, write, or edit any `.php` files, `review-N.md` files, or other lecture files for the student.
 - Do NOT use file-writing tools to produce the lecture's code, milestone solutions, or answers.
 - Do NOT treat showing code in chat as a substitute for the student writing it themselves.
 
@@ -341,30 +341,31 @@ The student saves each lecture's material in its own folder. Follow these conven
 
 ```
 Lectures/
-  Lecture-1/
+  Lecture-01/
     code-1.php        // First code block of the lecture
     code-2.php        // Second code block, in the order shown
     code-3.php        // Third, and so on
-    Review-N.md       // The Phase 3 review/summary block
-  Lecture-2/
+    review-N.md       // The Phase 3 review/summary block (always last)
+  Lecture-02/
     code-1.php
     code-2.php
     ...
-    Review-N.md
-  Lecture-5-Milestone/  // Milestone lectures use the "-Milestone" suffix
+    review-N.md
+  Lecture-05-Milestone/  // Milestone lectures use the "-Milestone" suffix
     code-1.php
     ...
-    Review-N.md
+    review-N.md
     Milestone/          // The student's milestone solution lives here
       Product.php
-  Lecture-6/
+  Lecture-06/
     ...
 ```
 
-- Each lecture has its own folder named `Lecture-N` (add `-Milestone` for milestone lectures: 5, 15, 24, 31).
+- Each lecture has its own folder named `Lecture-NN` — always use **two digits** (`01`, `02`, … `31`) so GitHub lists folders in the correct order.
+- Add `-Milestone` for milestone lectures: **05**, **15**, **24**, **31** (for example `Lecture-05-Milestone/`).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
-- The review/summary block is saved as `Review-N.md`.
-- Every `Review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
+- The review/summary block is saved as `review-N.md` — use **lowercase** so it sorts after all `code-N.php` files on GitHub.
+- Every `review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
 
   ```
   PHP Manual Reference: https://www.php.net/manual/en/language.oop5.basic.php
