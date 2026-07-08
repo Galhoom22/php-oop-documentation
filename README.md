@@ -203,7 +203,7 @@
 
 <br/>
 
-> 📝 *Progress is synced from [`PHP-OOP-Lectures.md`](PHP-OOP-Lectures.md). Update both files when a lecture is completed.*
+> 📝 *Progress is synced from [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md). Update both files when a lecture is completed.*
 
 <br/>
 
@@ -350,8 +350,8 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`PHP-OOP-Lectures.md`](PHP-OOP-Lectures.md) |
-| 📂 **Workspace** | [`Lectures/`](Lectures/) |
+| 📄 **Guide** | [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md) |
+| 📂 **Workspace** | [`01-Lectures/`](01-Lectures/) |
 | 🔢 **Sessions** | **31 lectures** — one concept per session |
 | 📜 **Source** | Official [PHP Manual](https://www.php.net/manual/en/oop5.intro.php) |
 
@@ -392,8 +392,8 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`PHP-OOP-Interview-Questions.md`](PHP-OOP-Interview-Questions.md) |
-| 📂 **Workspace** | [`Interview-Questions/`](Interview-Questions/) |
+| 📄 **Guide** | [`02-PHP-OOP-Interview-Questions.md`](02-PHP-OOP-Interview-Questions.md) |
+| 📂 **Workspace** | [`02-Interview-Questions/`](02-Interview-Questions/) |
 | 🔢 **Questions** | **31 questions** — realistic & code-based |
 | 🔗 **Linked to** | Every question maps back to a lecture |
 
@@ -440,8 +440,8 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`PHP-OOP-Final-Project.md`](PHP-OOP-Final-Project.md) |
-| 📂 **Workspace** | [`Final-Project/`](Final-Project/) |
+| 📄 **Guide** | [`03-PHP-OOP-Final-Project.md`](03-PHP-OOP-Final-Project.md) |
+| 📂 **Workspace** | [`03-Final-Project/`](03-Final-Project/) |
 | 🎯 **Project** | **SupportDesk Lite** — customer support ticketing system |
 | 🛠️ **Stack** | Pure PHP · No framework · No database required at first |
 
@@ -493,10 +493,10 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | Step | Action | File |
 |:---:|:---|:---|
-| **1️⃣** | 📖 Open the lecture guide and start with **Lecture 1** | [`PHP-OOP-Lectures.md`](PHP-OOP-Lectures.md) |
-| **2️⃣** | ✍️ Write your code in the matching `Lectures/` folder — one session at a time | [`Lectures/`](Lectures/) |
-| **3️⃣** | 💼 After all 31 lectures, begin interview preparation | [`PHP-OOP-Interview-Questions.md`](PHP-OOP-Interview-Questions.md) |
-| **4️⃣** | 🏗️ When ready, build the capstone project | [`PHP-OOP-Final-Project.md`](PHP-OOP-Final-Project.md) |
+| **1️⃣** | 📖 Open the lecture guide and start with **Lecture 1** | [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md) |
+| **2️⃣** | ✍️ Write your code in the matching `01-Lectures/` folder — one session at a time | [`01-Lectures/`](01-Lectures/) |
+| **3️⃣** | 💼 After all 31 lectures, begin interview preparation | [`02-PHP-OOP-Interview-Questions.md`](02-PHP-OOP-Interview-Questions.md) |
+| **4️⃣** | 🏗️ When ready, build the capstone project | [`03-PHP-OOP-Final-Project.md`](03-PHP-OOP-Final-Project.md) |
 
 <br/>
 
@@ -515,14 +515,17 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 ```
 📦 php-oop-documentation/
 │
-├── 📄  PHP-OOP-Lectures.md              ← 📚 Lecture curriculum & progress
-├── 📄  PHP-OOP-Interview-Questions.md   ← 💼 Interview question track
-├── 📄  PHP-OOP-Final-Project.md         ← 🏗️ Capstone project guide
+├── 📂  01-Lectures/                        ← 📚 Track 1 · your lecture code & notes
+├── 📂  02-Interview-Questions/             ← 💼 Track 2 · your interview practice
+├── 📂  03-Final-Project/                   ← 🏆 Track 3 · your capstone application
 │
-├── 📂  Lectures/                        ← ✍️ Your lecture code & notes
-├── 📂  Interview-Questions/             ← 🎤 Your interview practice
-└── 📂  Final-Project/                   ← 🏆 Your capstone application
+├── 📄  01-PHP-OOP-Lectures.md              ← 📚 Lecture curriculum & progress
+├── 📄  02-PHP-OOP-Interview-Questions.md ← 💼 Interview question track
+├── 📄  03-PHP-OOP-Final-Project.md         ← 🏗️ Capstone project guide
+└── 📄  README.md                           ← 📘 Start here
 ```
+
+> 💡 **GitHub tip:** Folders appear before files. Numeric prefixes (`01-`, `02-`, `03-`) keep everything in learning-path order.
 
 <br/>
 
