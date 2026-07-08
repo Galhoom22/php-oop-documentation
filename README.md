@@ -98,10 +98,14 @@
 
 **Lecture Progress**
 
-```
-✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
- 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-```
+<table align="center">
+<tr>
+<td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td>
+</tr>
+<tr>
+<td align="center"><sub>1</sub></td><td align="center"><sub>2</sub></td><td align="center"><sub>3</sub></td><td align="center"><sub>4</sub></td><td align="center"><sub>5</sub></td><td align="center"><sub>6</sub></td><td align="center"><sub>7</sub></td><td align="center"><sub>8</sub></td><td align="center"><sub>9</sub></td><td align="center"><sub>10</sub></td><td align="center"><sub>11</sub></td><td align="center"><sub>12</sub></td><td align="center"><sub>13</sub></td><td align="center"><sub>14</sub></td><td align="center"><sub>15</sub></td><td align="center"><sub>16</sub></td><td align="center"><sub>17</sub></td><td align="center"><sub>18</sub></td><td align="center"><sub>19</sub></td><td align="center"><sub>20</sub></td><td align="center"><sub>21</sub></td><td align="center"><sub>22</sub></td><td align="center"><sub>23</sub></td><td align="center"><sub>24</sub></td><td align="center"><sub>25</sub></td><td align="center"><sub>26</sub></td><td align="center"><sub>27</sub></td><td align="center"><sub>28</sub></td><td align="center"><sub>29</sub></td><td align="center"><sub>30</sub></td><td align="center"><sub>31</sub></td>
+</tr>
+</table>
 
 **[████████░░░░░░░░░░░░░░░░░░░░░░░░░] 26%**
 
