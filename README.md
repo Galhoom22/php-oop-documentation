@@ -10,6 +10,8 @@
 ![OOP](https://img.shields.io/badge/Focus-OOP-2563EB?style=for-the-badge)
 ![Source](https://img.shields.io/badge/Source-Official%20PHP%20Manual-059669?style=for-the-badge)
 ![Tracks](https://img.shields.io/badge/Tracks-3-D97706?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Lectures-8%2F31%20Done-2563EB?style=for-the-badge)
+![Current](https://img.shields.io/badge/Current-Lecture%209-F59E0B?style=for-the-badge)
 
 <br/>
 
@@ -32,7 +34,7 @@
 
 <br/>
 
-[🚀 Get Started](#-how-to-start) · [📚 Lectures](#-track-1--lectures) · [💼 Interviews](#-track-2--interview-questions) · [🏗️ Project](#-track-3--final-project)
+[📊 My Progress](#-my-progress) · [🚀 Get Started](#-how-to-start) · [📚 Lectures](#-track-1--lectures) · [💼 Interviews](#-track-2--interview-questions) · [🏗️ Project](#-track-3--final-project)
 
 </div>
 
@@ -46,6 +48,7 @@
 
 | | Chapter | Page |
 |:---:|:---|:---:|
+| 📊 | [My Progress](#-my-progress) | Where I am now |
 | 🎯 | [Purpose](#-purpose) | Why this book exists |
 | 👤 | [Who This Is For](#-who-this-is-for) | Is this for you? |
 | 🗺️ | [Learning Path](#-learning-path) | The 3-track journey |
@@ -56,6 +59,147 @@
 | 📁 | [Repository Structure](#-repository-structure) | Folder map |
 | ⚙️ | [Requirements](#-requirements) | What you need |
 | 🔗 | [Official Sources](#-official-sources) | Trusted references |
+
+<br/>
+
+---
+
+<br/>
+
+## 📊 My Progress
+
+<br/>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║              📈  L E A R N I N G   J O U R N E Y              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<br/>
+
+### 🗓️ Overall Status
+
+<br/>
+
+| Track | Progress | Status |
+|:---|:---:|:---|
+| 📚 **Lectures** | **8 / 31** | 🟡 In Progress — *Lecture 9 next* |
+| 💼 **Interview Questions** | **0 / 31** | 🔒 Locked — *starts after Lecture 31* |
+| 🏗️ **Final Project** | **0 / 14 milestones** | 🔒 Locked — *starts after interviews* |
+
+<br/>
+
+<div align="center">
+
+**Lecture Progress**
+
+```
+✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+```
+
+**[████████░░░░░░░░░░░░░░░░░░░░░░░░░] 26%**
+
+</div>
+
+<br/>
+
+> 🎯 **Current focus:** [Lecture 9 — Asymmetric Visibility](#-lecture-progress)  
+> 🏁 **Last completed:** Lecture 8 — Property Hooks *(PHP 8.4)*  
+> 🏅 **Milestone 1** *(after Lecture 5)* — ✅ Passed
+
+<br/>
+
+### 📚 Lecture Progress
+
+<br/>
+
+<details open>
+<summary><strong>📗 Part 1 — Foundations</strong> &nbsp;·&nbsp; Lectures 1–10</summary>
+
+<br/>
+
+| # | Lecture | Status |
+|:---:|:---|:---:|
+| 01 | The Problem: Why Functions Alone Are Not Enough | ✅ |
+| 02 | The Solution: What Is a Class and What Is an Object? | ✅ |
+| 03 | Properties: Storing Data Inside Objects | ✅ |
+| 04 | Methods: Giving Objects Behavior | ✅ |
+| 05 | The Constructor: Setting Up an Object at Birth | ✅ |
+| 06 | Visibility: Public, Private, and Protected | ✅ |
+| 07 | Encapsulation: Hiding the Internal and Exposing a Safe Surface | ✅ |
+| 08 | Property Hooks: Modern Getters and Setters *(PHP 8.4)* | ✅ |
+| 09 | Asymmetric Visibility: Fine-Tuning Encapsulation *(PHP 8.4)* | 🟡 **Next** |
+| 10 | Inheritance: Building New Classes from Existing Ones | ⬜ |
+
+</details>
+
+<br/>
+
+<details>
+<summary><strong>📘 Part 2 — Core OOP</strong> &nbsp;·&nbsp; Lectures 11–20</summary>
+
+<br/>
+
+| # | Lecture | Status |
+|:---:|:---|:---:|
+| 11 | Method Overriding and the `parent` Keyword | ⬜ |
+| 12 | The Static Keyword and Class Constants | ⬜ |
+| 13 | Abstract Classes: Forcing a Contract on Children | ⬜ |
+| 14 | Interfaces: Defining a Capability Without Implementation | ⬜ |
+| 15 | Polymorphism: One Interface, Many Shapes | ⬜ |
+| 16 | Type Declarations and Return Types in OOP | ⬜ |
+| 17 | Covariance and Contravariance: Type Safety in Inheritance | ⬜ |
+| 18 | Traits: Sharing Code Across Unrelated Classes | ⬜ |
+| 19 | Magic Methods: `__toString`, `__get`, `__set`, and Others | ⬜ |
+| 20 | Objects and References: Copying, Assigning, and Passing Objects | ⬜ |
+
+</details>
+
+<br/>
+
+<details>
+<summary><strong>📙 Part 3 — Modern PHP</strong> &nbsp;·&nbsp; Lectures 21–31</summary>
+
+<br/>
+
+| # | Lecture | Status |
+|:---:|:---|:---:|
+| 21 | The Final Keyword and Object Cloning | ⬜ |
+| 22 | Readonly Classes and Clone With *(PHP 8.2 & 8.5)* | ⬜ |
+| 23 | Namespaces and Autoloading *(PSR-4)* | ⬜ |
+| 24 | Enumerations: A Modern Way to Represent Fixed Options | ⬜ |
+| 25 | Exceptions and Errors: Object-Oriented Error Handling | ⬜ |
+| 26 | Attributes: Adding Metadata to Code *(PHP 8.0 – 8.5)* | ⬜ |
+| 27 | Anonymous Classes and Object Iteration | ⬜ |
+| 28 | Lazy Objects: Deferring Object Creation *(PHP 8.4)* | ⬜ |
+| 29 | Late Static Bindings, Object Comparison, and Serialization | ⬜ |
+| 30 | Mini-Project: Build a Simple Blog System End to End | ⬜ |
+| 31 | Testing: Writing Unit Tests with PHPUnit | ⬜ |
+
+</details>
+
+<br/>
+
+### 🏅 Milestones
+
+<br/>
+
+| Milestone | After Lecture | Status |
+|:---|:---:|:---:|
+| 🥉 Milestone 1 — First Objects | 05 | ✅ Passed |
+| 🥈 Milestone 2 — Core OOP | 15 | ⬜ Not yet |
+| 🥇 Milestone 3 — Modern PHP | 24 | ⬜ Not yet |
+| 🏆 Milestone 4 — Full Track Complete | 31 | ⬜ Not yet |
+
+<br/>
+
+> 📝 *Progress is synced from [`PHP-OOP-Lectures.md`](PHP-OOP-Lectures.md). Update both files when a lecture is completed.*
 
 <br/>
 
@@ -220,6 +364,10 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 <br/>
 
+> 📊 **My current progress:** **8 / 31** lectures done — see the full [Lecture Progress](#-lecture-progress) table above.
+
+<br/>
+
 ---
 
 <br/>
@@ -259,6 +407,12 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 <br/>
 
 > 💡 Start this track **only after** completing all 31 lectures.
+
+<br/>
+
+| Progress | Status |
+|:---:|:---|
+| **0 / 31** | 🔒 Not started yet |
 
 <br/>
 
@@ -304,6 +458,12 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 <br/>
 
 > 🏅 This is your **final proof** — not a lecture replacement.
+
+<br/>
+
+| Progress | Status |
+|:---:|:---|
+| **0 / 14 milestones** | 🔒 Not started yet |
 
 <br/>
 
