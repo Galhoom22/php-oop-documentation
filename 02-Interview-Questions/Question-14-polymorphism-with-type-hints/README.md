@@ -30,7 +30,7 @@ Explain how Email, SMS, and Push notification classes can be sent through one fu
 
 ## Completion Rule
 
-After you can answer this question clearly and solve the practice task, mark the question with the check mark in `02-PHP-OOP-Interview-Questions.md`.
+After you can answer this question clearly and solve the practice task, mark the question with the check mark in `../README.md`.
 
 ## Source
 

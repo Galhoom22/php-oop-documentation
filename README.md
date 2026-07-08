@@ -203,7 +203,7 @@
 
 <br/>
 
-> 📝 *Progress is synced from [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md). Update both files when a lecture is completed.*
+> 📝 *Progress is synced from [`01-Lectures/README.md`](01-Lectures/README.md). Update both files when a lecture is completed.*
 
 <br/>
 
@@ -350,8 +350,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md) |
-| 📂 **Workspace** | [`01-Lectures/`](01-Lectures/) |
+| 📂 **Track folder** | [`01-Lectures/`](01-Lectures/) — guide + workspace |
 | 🔢 **Sessions** | **31 lectures** — one concept per session |
 | 📜 **Source** | Official [PHP Manual](https://www.php.net/manual/en/oop5.intro.php) |
 
@@ -392,8 +391,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`02-PHP-OOP-Interview-Questions.md`](02-PHP-OOP-Interview-Questions.md) |
-| 📂 **Workspace** | [`02-Interview-Questions/`](02-Interview-Questions/) |
+| 📂 **Track folder** | [`02-Interview-Questions/`](02-Interview-Questions/) — guide + workspace |
 | 🔢 **Questions** | **31 questions** — realistic & code-based |
 | 🔗 **Linked to** | Every question maps back to a lecture |
 
@@ -440,8 +438,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | | |
 |:---|:---|
-| 📄 **Guide** | [`03-PHP-OOP-Final-Project.md`](03-PHP-OOP-Final-Project.md) |
-| 📂 **Workspace** | [`03-Final-Project/`](03-Final-Project/) |
+| 📂 **Track folder** | [`03-Final-Project/`](03-Final-Project/) — guide + workspace |
 | 🎯 **Project** | **SupportDesk Lite** — customer support ticketing system |
 | 🛠️ **Stack** | Pure PHP · No framework · No database required at first |
 
@@ -493,10 +490,10 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | Step | Action | File |
 |:---:|:---|:---|
-| **1️⃣** | 📖 Open the lecture guide and start with **Lecture 1** | [`01-PHP-OOP-Lectures.md`](01-PHP-OOP-Lectures.md) |
-| **2️⃣** | ✍️ Write your code in the matching `01-Lectures/` folder — one session at a time | [`01-Lectures/`](01-Lectures/) |
-| **3️⃣** | 💼 After all 31 lectures, begin interview preparation | [`02-PHP-OOP-Interview-Questions.md`](02-PHP-OOP-Interview-Questions.md) |
-| **4️⃣** | 🏗️ When ready, build the capstone project | [`03-PHP-OOP-Final-Project.md`](03-PHP-OOP-Final-Project.md) |
+| **1️⃣** | 📖 Open [`01-Lectures/`](01-Lectures/) and start with **Lecture 1** | [`01-Lectures/`](01-Lectures/) |
+| **2️⃣** | ✍️ Write your code in the matching `Lecture-NN/` folder — one session at a time | [`01-Lectures/`](01-Lectures/) |
+| **3️⃣** | 💼 After all 31 lectures, open [`02-Interview-Questions/`](02-Interview-Questions/) | [`02-Interview-Questions/`](02-Interview-Questions/) |
+| **4️⃣** | 🏗️ When ready, build the capstone in [`03-Final-Project/`](03-Final-Project/) | [`03-Final-Project/`](03-Final-Project/) |
 
 <br/>
 
@@ -515,17 +512,26 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 ```
 📦 php-oop-documentation/
 │
-├── 📂  01-Lectures/                        ← 📚 Track 1 · your lecture code & notes
-├── 📂  02-Interview-Questions/             ← 💼 Track 2 · your interview practice
-├── 📂  03-Final-Project/                   ← 🏆 Track 3 · your capstone application
+├── 📄  README.md                           ← 📘 Start here · repo overview
 │
-├── 📄  01-PHP-OOP-Lectures.md              ← 📚 Lecture curriculum & progress
-├── 📄  02-PHP-OOP-Interview-Questions.md ← 💼 Interview question track
-├── 📄  03-PHP-OOP-Final-Project.md         ← 🏗️ Capstone project guide
-└── 📄  README.md                           ← 📘 Start here
+├── 📂  01-Lectures/                        ← 📚 Track 1 · guide + workspace
+│   ├── README.md                           ←    Curriculum & progress
+│   ├── Lecture-01/
+│   ├── Lecture-02/
+│   └── ...
+│
+├── 📂  02-Interview-Questions/             ← 💼 Track 2 · guide + workspace
+│   ├── README.md                           ←    Interview question track
+│   ├── Question-01-why-use-oop-in-php/
+│   └── ...
+│
+└── 📂  03-Final-Project/                   ← 🏆 Track 3 · guide + workspace
+    ├── README.md                           ←    Capstone project guide
+    ├── src/                                ←    (student-created)
+    └── tests/                              ←    (student-created)
 ```
 
-> 💡 **GitHub tip:** Folders appear before files. Numeric prefixes (`01-`, `02-`, `03-`) keep everything in learning-path order.
+> 💡 **Professional layout:** Each track folder is self-contained — open it on GitHub and the guide appears automatically.
 
 <br/>
 

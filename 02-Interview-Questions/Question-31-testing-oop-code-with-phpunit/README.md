@@ -30,7 +30,7 @@ Write a test plan for a `Calculator` or `BankAccount` class without writing the 
 
 ## Completion Rule
 
-After you can answer this question clearly and solve the practice task, mark the question with the check mark in `02-PHP-OOP-Interview-Questions.md`.
+After you can answer this question clearly and solve the practice task, mark the question with the check mark in `../README.md`.
 
 ## Source
 

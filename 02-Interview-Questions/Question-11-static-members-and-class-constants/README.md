@@ -30,7 +30,7 @@ Give one example of a good class constant and one example where a static propert
 
 ## Completion Rule
 
-After you can answer this question clearly and solve the practice task, mark the question with the check mark in `02-PHP-OOP-Interview-Questions.md`.
+After you can answer this question clearly and solve the practice task, mark the question with the check mark in `../README.md`.
 
 ## Source
 

@@ -29,7 +29,7 @@ Student profile: finished or is close to finishing the PHP OOP lecture track, un
 
 ## Interview Questions Track (31 Questions, One Per Session)
 
-Start this track only after Lecture 31 in `01-PHP-OOP-Lectures.md` is complete. It prepares the student for realistic PHP OOP interview questions. Deliver exactly one interview question per session unless the student explicitly asks to continue.
+Start this track only after Lecture 31 in `../01-Lectures/README.md` is complete. It prepares the student for realistic PHP OOP interview questions. Deliver exactly one interview question per session unless the student explicitly asks to continue.
 
 Every interview question must be handled like a lecture:
 - Understand the question first.
@@ -58,7 +58,7 @@ Use this checklist before moving from the interview-question track to the final 
 - [ ] Weak questions were repeated until the student could answer clearly and confidently.
 ```
 
-Do not start `03-PHP-OOP-Final-Project.md` until this checklist is complete.
+Do not start `../03-Final-Project/README.md` until this checklist is complete.
 
 ### Interview Question Progress
 

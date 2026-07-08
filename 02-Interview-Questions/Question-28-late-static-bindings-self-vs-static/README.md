@@ -30,7 +30,7 @@ Predict the output when a parent method uses `self::NAME` versus `static::NAME`.
 
 ## Completion Rule
 
-After you can answer this question clearly and solve the practice task, mark the question with the check mark in `02-PHP-OOP-Interview-Questions.md`.
+After you can answer this question clearly and solve the practice task, mark the question with the check mark in `../README.md`.
 
 ## Source
 

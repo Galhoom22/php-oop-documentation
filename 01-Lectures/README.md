@@ -94,7 +94,7 @@ Use this checklist before moving from the lecture track to the interview-questio
 - [ ] The student knows which topics still feel weak and has reviewed them before moving on.
 ```
 
-Do not start `02-PHP-OOP-Interview-Questions.md` until this checklist is complete.
+Do not start `../02-Interview-Questions/README.md` until this checklist is complete.
 
 ---
 
@@ -312,7 +312,7 @@ This is a deliberate learning rule, not a limitation. The tutor teaches by showi
 
 - **Show** code examples inside the chat as part of teaching (required).
 - Explain every line, answer questions, review code the student shares, and help debug errors the student reports.
-- Mark lecture progress in this `01-PHP-OOP-Lectures.md` file only (for example the ✅ emoji).
+- Mark lecture progress in this README.md file only (for example the ✅ emoji).
 
 ### What the student does
 
@@ -339,17 +339,16 @@ The student saves each lecture's material in its own folder. Follow these conven
 
 ### Repository root order
 
-GitHub lists folders first, then files — both alphabetically. Use **numeric prefixes** at the repo root so visitors see the learning path in order:
+Each track is a self-contained folder with its guide as `README.md`. The repo root stays clean:
 
 ```
-01-Lectures/                        // Track 1 workspace
-02-Interview-Questions/             // Track 2 workspace
-03-Final-Project/                   // Track 3 workspace
-01-PHP-OOP-Lectures.md              // Track 1 guide
-02-PHP-OOP-Interview-Questions.md   // Track 2 guide
-03-PHP-OOP-Final-Project.md         // Track 3 guide
-README.md                           // Repo overview (always last in file list)
+README.md                           // Repo overview — start here
+01-Lectures/                        // Track 1 · guide + workspace
+02-Interview-Questions/             // Track 2 · guide + workspace
+03-Final-Project/                   // Track 3 · guide + workspace
 ```
+
+Use **numeric prefixes** (`01-`, `02-`, `03-`) so GitHub lists tracks in learning-path order.
 
 ### Folder structure
 

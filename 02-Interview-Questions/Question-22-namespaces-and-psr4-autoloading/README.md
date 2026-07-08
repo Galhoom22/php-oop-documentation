@@ -30,7 +30,7 @@ Map `App\Models\Post` to a likely file path in a PSR-4 project.
 
 ## Completion Rule
 
-After you can answer this question clearly and solve the practice task, mark the question with the check mark in `02-PHP-OOP-Interview-Questions.md`.
+After you can answer this question clearly and solve the practice task, mark the question with the check mark in `../README.md`.
 
 ## Source
 
