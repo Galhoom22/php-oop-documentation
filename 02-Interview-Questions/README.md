@@ -27,7 +27,7 @@ Student profile: finished or is close to finishing the PHP OOP lecture track, un
 
 ---
 
-## Interview Questions Track (31 Questions, One Per Session)
+## Interview Questions Track (42 Questions, One Per Session)
 
 Start this track only after Lecture 31 in `../01-Lectures/README.md` is complete. It prepares the student for realistic PHP OOP interview questions. Deliver exactly one interview question per session unless the student explicitly asks to continue.
 
@@ -47,7 +47,7 @@ This track stays inside PHP OOP. Do not teach design patterns, SOLID, or broad O
 Use this checklist before moving from the interview-question track to the final project.
 
 ```
-- [ ] Every interview question from 1 to 31 is marked with ✅ in the progress list.
+- [ ] Every interview question from 1 to 42 is marked with ✅ in the progress list.
 - [ ] Every question folder has a `README.md`.
 - [ ] Every question folder `README.md` ends with a `Source:` or `Sources:` line.
 - [ ] Every completed question folder has `Status: Completed`.
@@ -63,37 +63,48 @@ Do not start `../03-Final-Project/README.md` until this checklist is complete.
 ### Interview Question Progress
 
 ```
-Question 01 - Why use OOP in PHP instead of only functions?
-Question 02 - What is the difference between a class and an object?
-Question 03 - What is the difference between properties and methods?
-Question 04 - What is a constructor, and why is constructor promotion useful?
-Question 05 - When should you use public, private, and protected?
-Question 06 - What is encapsulation, and how does it protect data?
-Question 07 - How do PHP property hooks compare to traditional getters and setters?
-Question 08 - What is asymmetric visibility, and when is it useful?
-Question 09 - What is inheritance, and when can it become a bad choice?
-Question 10 - What is method overriding, and why would you call parent::method()?
-Question 11 - What is the difference between static members and class constants?
-Question 12 - What is the difference between an abstract class and an interface?
-Question 13 - Why can a PHP class implement multiple interfaces but extend only one class?
-Question 14 - How does polymorphism work with type hints in PHP?
-Question 15 - Why are type declarations and return types important in OOP PHP?
-Question 16 - What are covariance and contravariance in method overriding?
-Question 17 - What are traits, and how do you resolve trait method conflicts?
-Question 18 - What are magic methods, and why should they be used carefully?
-Question 19 - What happens when you assign or pass an object in PHP?
-Question 20 - What do final and clone do in PHP OOP?
-Question 21 - What are readonly classes, and why is immutability useful?
-Question 22 - How do namespaces and PSR-4 autoloading organize PHP classes?
-Question 23 - When should you use an enum instead of strings or class constants?
-Question 24 - How do exceptions work in OOP PHP, and when should you create a custom exception?
-Question 25 - What are PHP attributes, and what problem do they solve?
-Question 26 - When would you use an anonymous class, and how does object iteration work?
-Question 27 - What is a lazy object, and why can it improve performance?
-Question 28 - What is the difference between self:: and static::?
-Question 29 - What is the difference between comparing objects with == and ===?
-Question 30 - What is object serialization, and what should you be careful about?
-Question 31 - How would you test an OOP PHP class with PHPUnit?
+Question 01 - What is OOP?
+Question 02 - Why use OOP in PHP instead of only functions?
+Question 03 - What are the four core principles of OOP?
+Question 04 - What is the difference between a class and an object?
+Question 05 - How do you instantiate an object from a class? Explain the step-by-step process of how the object is built and what handles its creation.
+Question 06 - What is the difference between properties and methods?
+Question 07 - What is a constructor, and why is constructor promotion useful?
+Question 08 - What is a Destructor in PHP, and what is its purpose?
+Question 09 - Can a constructor be private?
+Question 10 - If a constructor is private, how can you instantiate an object of that class?
+Question 11 - When should you use public, private, and protected?
+Question 12 - What is encapsulation, and how does it protect data?
+Question 13 - How do PHP property hooks compare to traditional getters and setters?
+Question 14 - What is asymmetric visibility, and when is it useful?
+Question 15 - What is inheritance, and when can it become a bad choice?
+Question 16 - What is method overriding, and why would you call parent::method()?
+Question 17 - What is the difference between static members and class constants?
+Question 18 - What is the difference between static and non-static methods?
+Question 19 - A static method does not require an object instance to run. How is this managed internally?
+Question 20 - What is the difference in memory (RAM) allocation between instantiating an object and calling a static method?
+Question 21 - What is the concept of Abstraction?
+Question 22 - What is the difference between an abstract class and an interface?
+Question 23 - Can you instantiate an object directly from an Abstract Class?
+Question 24 - Why can a PHP class implement multiple interfaces but extend only one class?
+Question 25 - How does polymorphism work with type hints in PHP?
+Question 26 - Why are type declarations and return types important in OOP PHP?
+Question 27 - What are covariance and contravariance in method overriding?
+Question 28 - What are traits, and how do you resolve trait method conflicts?
+Question 29 - What are magic methods, and why should they be used carefully?
+Question 30 - What happens when you assign or pass an object in PHP?
+Question 31 - What do final and clone do in PHP OOP?
+Question 32 - What are readonly classes, and why is immutability useful?
+Question 33 - How do namespaces and PSR-4 autoloading organize PHP classes?
+Question 34 - When should you use an enum instead of strings or class constants?
+Question 35 - How do exceptions work in OOP PHP, and when should you create a custom exception?
+Question 36 - What are PHP attributes, and what problem do they solve?
+Question 37 - When would you use an anonymous class, and how does object iteration work?
+Question 38 - What is a lazy object, and why can it improve performance?
+Question 39 - What is the difference between self:: and static::?
+Question 40 - What is the difference between comparing objects with == and ===?
+Question 41 - What is object serialization, and what should you be careful about?
+Question 42 - How would you test an OOP PHP class with PHPUnit?
 ```
 
 ---
@@ -102,36 +113,47 @@ Question 31 - How would you test an OOP PHP class with PHPUnit?
 
 ```
 Question 01 Source: https://www.php.net/manual/en/oop5.intro.php
-Question 02 Source: https://www.php.net/manual/en/language.oop5.basic.php
-Question 03 Source: https://www.php.net/manual/en/language.oop5.properties.php
-Question 04 Source: https://www.php.net/manual/en/language.oop5.decon.php
-Question 05 Source: https://www.php.net/manual/en/language.oop5.visibility.php
-Question 06 Source: https://www.php.net/manual/en/language.oop5.visibility.php
-Question 07 Source: https://www.php.net/manual/en/language.oop5.property-hooks.php
-Question 08 Source: https://www.php.net/manual/en/language.oop5.visibility.php
-Question 09 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
-Question 10 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
-Question 11 Source: https://www.php.net/manual/en/language.oop5.static.php
-Question 12 Sources: https://www.php.net/manual/en/language.oop5.abstract.php, https://www.php.net/manual/en/language.oop5.interfaces.php
-Question 13 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
-Question 14 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
-Question 15 Source: https://www.php.net/manual/en/language.types.declarations.php
-Question 16 Source: https://www.php.net/manual/en/language.oop5.variance.php
-Question 17 Source: https://www.php.net/manual/en/language.oop5.traits.php
-Question 18 Source: https://www.php.net/manual/en/language.oop5.magic.php
-Question 19 Source: https://www.php.net/manual/en/language.oop5.references.php
-Question 20 Sources: https://www.php.net/manual/en/language.oop5.final.php, https://www.php.net/manual/en/language.oop5.cloning.php
-Question 21 Source: https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties
-Question 22 Sources: https://www.php.net/manual/en/language.namespaces.php, https://www.php.net/manual/en/function.spl-autoload-register.php
-Question 23 Source: https://www.php.net/manual/en/language.enumerations.php
-Question 24 Source: https://www.php.net/manual/en/language.exceptions.php
-Question 25 Source: https://www.php.net/manual/en/language.attributes.php
-Question 26 Source: https://www.php.net/manual/en/language.oop5.anonymous.php
-Question 27 Source: https://www.php.net/manual/en/language.oop5.lazy-objects.php
-Question 28 Source: https://www.php.net/manual/en/language.oop5.late-static-bindings.php
-Question 29 Source: https://www.php.net/manual/en/language.oop5.object-comparison.php
-Question 30 Source: https://www.php.net/manual/en/language.oop5.serialization.php
-Question 31 Source: https://docs.phpunit.de/en/12.2/writing-tests-for-phpunit.html
+Question 02 Source: https://www.php.net/manual/en/oop5.intro.php
+Question 03 Source: https://www.php.net/manual/en/oop5.intro.php
+Question 04 Source: https://www.php.net/manual/en/language.oop5.basic.php
+Question 05 Sources: https://www.php.net/manual/en/language.oop5.basic.php, https://www.php.net/manual/en/language.oop5.decon.php
+Question 06 Source: https://www.php.net/manual/en/language.oop5.properties.php
+Question 07 Source: https://www.php.net/manual/en/language.oop5.decon.php
+Question 08 Source: https://www.php.net/manual/en/language.oop5.decon.php
+Question 09 Sources: https://www.php.net/manual/en/language.oop5.decon.php, https://www.php.net/manual/en/language.oop5.visibility.php
+Question 10 Sources: https://www.php.net/manual/en/language.oop5.decon.php, https://www.php.net/manual/en/language.oop5.visibility.php, https://www.php.net/manual/en/language.oop5.static.php
+Question 11 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 12 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 13 Source: https://www.php.net/manual/en/language.oop5.property-hooks.php
+Question 14 Source: https://www.php.net/manual/en/language.oop5.visibility.php
+Question 15 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
+Question 16 Source: https://www.php.net/manual/en/language.oop5.inheritance.php
+Question 17 Source: https://www.php.net/manual/en/language.oop5.static.php
+Question 18 Source: https://www.php.net/manual/en/language.oop5.static.php
+Question 19 Source: https://www.php.net/manual/en/language.oop5.static.php
+Question 20 Sources: https://www.php.net/manual/en/language.oop5.basic.php, https://www.php.net/manual/en/language.oop5.static.php
+Question 21 Sources: https://www.php.net/manual/en/language.oop5.abstract.php, https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 22 Sources: https://www.php.net/manual/en/language.oop5.abstract.php, https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 23 Source: https://www.php.net/manual/en/language.oop5.abstract.php
+Question 24 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 25 Source: https://www.php.net/manual/en/language.oop5.interfaces.php
+Question 26 Source: https://www.php.net/manual/en/language.types.declarations.php
+Question 27 Source: https://www.php.net/manual/en/language.oop5.variance.php
+Question 28 Source: https://www.php.net/manual/en/language.oop5.traits.php
+Question 29 Source: https://www.php.net/manual/en/language.oop5.magic.php
+Question 30 Source: https://www.php.net/manual/en/language.oop5.references.php
+Question 31 Sources: https://www.php.net/manual/en/language.oop5.final.php, https://www.php.net/manual/en/language.oop5.cloning.php
+Question 32 Source: https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties
+Question 33 Sources: https://www.php.net/manual/en/language.namespaces.php, https://www.php.net/manual/en/function.spl-autoload-register.php
+Question 34 Source: https://www.php.net/manual/en/language.enumerations.php
+Question 35 Source: https://www.php.net/manual/en/language.exceptions.php
+Question 36 Source: https://www.php.net/manual/en/language.attributes.php
+Question 37 Source: https://www.php.net/manual/en/language.oop5.anonymous.php
+Question 38 Source: https://www.php.net/manual/en/language.oop5.lazy-objects.php
+Question 39 Source: https://www.php.net/manual/en/language.oop5.late-static-bindings.php
+Question 40 Source: https://www.php.net/manual/en/language.oop5.object-comparison.php
+Question 41 Source: https://www.php.net/manual/en/language.oop5.serialization.php
+Question 42 Source: https://docs.phpunit.de/en/12.2/writing-tests-for-phpunit.html
 ```
 
 ---
@@ -200,157 +222,212 @@ Every interview question must include a source reference, similar to the lecture
 
 ```
 02-Interview-Questions/
-  Question-01-why-use-oop-in-php/
-    README.md         // Must end with Source or Sources
-    code-1.php        // Student-created code attempt if needed
-    code-2.php        // Optional improved attempt after feedback
-    notes.md          // Optional final answer in the student's own words
-  Question-02-class-vs-object/
+  Question-01-what-is-oop/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-03-properties-vs-methods/
+  Question-02-why-use-oop-in-php/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-04-constructor-and-constructor-promotion/
+  Question-03-four-core-principles-of-oop/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-05-visibility-public-private-protected/
+  Question-04-class-vs-object/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-06-encapsulation-and-validation/
+  Question-05-instantiating-an-object-step-by-step/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-07-property-hooks-vs-getters-setters/
+  Question-06-properties-vs-methods/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-08-asymmetric-visibility/
+  Question-07-constructor-and-constructor-promotion/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-09-inheritance-use-and-limits/
+  Question-08-destructor-and-purpose/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-10-method-overriding-and-parent/
+  Question-09-can-constructor-be-private/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-11-static-members-and-class-constants/
+  Question-10-instantiate-with-private-constructor/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-12-abstract-class-vs-interface/
+  Question-11-visibility-public-private-protected/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-13-multiple-interfaces-vs-single-inheritance/
+  Question-12-encapsulation-and-validation/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-14-polymorphism-with-type-hints/
+  Question-13-property-hooks-vs-getters-setters/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-15-strict-types-and-return-types/
+  Question-14-asymmetric-visibility/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-16-covariance-and-contravariance/
+  Question-15-inheritance-use-and-limits/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-17-traits-and-conflict-resolution/
+  Question-16-method-overriding-and-parent/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-18-magic-methods-and-risks/
+  Question-17-static-members-and-class-constants/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-19-object-handles-assignment-and-passing/
+  Question-18-static-vs-non-static-methods/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-20-final-keyword-and-cloning/
+  Question-19-how-static-methods-work-internally/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-21-readonly-objects-and-immutability/
+  Question-20-memory-object-vs-static-method/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-22-namespaces-and-psr4-autoloading/
+  Question-21-concept-of-abstraction/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-23-enums-and-valid-states/
+  Question-22-abstract-class-vs-interface/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-24-exceptions-and-custom-exceptions/
+  Question-23-instantiate-abstract-class/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-25-attributes-as-metadata/
+  Question-24-multiple-interfaces-vs-single-inheritance/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-26-anonymous-classes-and-object-iteration/
+  Question-25-polymorphism-with-type-hints/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-27-lazy-objects/
+  Question-26-strict-types-and-return-types/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-28-late-static-bindings-self-vs-static/
+  Question-27-covariance-and-contravariance/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-29-object-comparison/
+  Question-28-traits-and-conflict-resolution/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-30-serialization-and-unserialization/
+  Question-29-magic-methods-and-risks/
     README.md
     code-1.php
     code-2.php
     notes.md
-  Question-31-testing-oop-code-with-phpunit/
+  Question-30-object-handles-assignment-and-passing/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-31-final-keyword-and-cloning/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-32-readonly-objects-and-immutability/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-33-namespaces-and-psr4-autoloading/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-34-enums-and-valid-states/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-35-exceptions-and-custom-exceptions/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-36-attributes-as-metadata/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-37-anonymous-classes-and-object-iteration/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-38-lazy-objects/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-39-late-static-bindings-self-vs-static/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-40-object-comparison/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-41-serialization-and-unserialization/
+    README.md
+    code-1.php
+    code-2.php
+    notes.md
+  Question-42-testing-oop-code-with-phpunit/
     README.md
     code-1.php
     code-2.php

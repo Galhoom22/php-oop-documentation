@@ -35,7 +35,7 @@ Do not start this project yet.
 
 Start only after:
 1. All 31 lectures in `../01-Lectures/README.md` are completed.
-2. All 31 interview questions in `../02-Interview-Questions/README.md` are completed.
+2. All 42 interview questions in `../02-Interview-Questions/README.md` are completed.
 3. The student explicitly says they are ready to start the final project.
 
 This project is the final proof step. It is not a lecture replacement.
@@ -613,7 +613,7 @@ Lecture 28 - Lazy objects or lazy initialization
 Lecture 29 - Late static bindings, comparison, and serialization
 Lecture 30 - End-to-end mini-project thinking
 Lecture 31 - PHPUnit testing
-Interview Questions 01-31 - Explain every major design choice in interview form
+Interview Questions 01-42 - Explain every major design choice in interview form
 ```
 
 ---

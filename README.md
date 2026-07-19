@@ -53,7 +53,7 @@
 | 👤 | [Who This Is For](#-who-this-is-for) | Is this for you? |
 | 🗺️ | [Learning Path](#-learning-path) | The 3-track journey |
 | 📚 | [Track 1 — Lectures](#-track-1--lectures) | 31 sessions |
-| 💼 | [Track 2 — Interviews](#-track-2--interview-questions) | 31 questions |
+| 💼 | [Track 2 — Interviews](#-track-2--interview-questions) | 42 questions |
 | 🏗️ | [Track 3 — Final Project](#-track-3--final-project) | SupportDesk Lite |
 | 🚀 | [How to Start](#-how-to-start) | Your first step |
 | 📁 | [Repository Structure](#-repository-structure) | Folder map |
@@ -89,7 +89,7 @@
 | Track | Progress | Status |
 |:---|:---:|:---|
 | 📚 **Lectures** | **8 / 31** | 🟡 In Progress — *Lecture 9 next* |
-| 💼 **Interview Questions** | **0 / 31** | 🔒 Locked — *starts after Lecture 31* |
+| 💼 **Interview Questions** | **0 / 42** | 🔒 Locked — *starts after Lecture 31* |
 | 🏗️ **Final Project** | **0 / 14 milestones** | 🔒 Locked — *starts after interviews* |
 
 <br/>
@@ -279,7 +279,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 </tr>
 <tr>
 <td>🎤 Preparing for PHP interviews</td>
-<td>Practice 31 focused OOP questions with code</td>
+<td>Practice 42 focused OOP questions with code</td>
 </tr>
 <tr>
 <td>📜 A learner who wants official sources</td>
@@ -313,7 +313,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
         │                                                      │
         │   📚  TRACK 1          💼  TRACK 2        🏗️  TRACK 3   │
         │   ──────────          ──────────        ──────────   │
-        │   31 Lectures    ──▶  31 Questions  ──▶  Final Project │
+        │   31 Lectures    ──▶  42 Questions  ──▶  Final Project │
         │   Official Docs       Interview Ready   SupportDesk    │
         │                                                      │
         ╰──────────────────────────────────────────────────────╯
@@ -392,7 +392,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 | | |
 |:---|:---|
 | 📂 **Track folder** | [`02-Interview-Questions/`](02-Interview-Questions/) — guide + workspace |
-| 🔢 **Questions** | **31 questions** — realistic & code-based |
+| 🔢 **Questions** | **42 questions** — realistic & code-based |
 | 🔗 **Linked to** | Every question maps back to a lecture |
 
 <br/>
@@ -400,9 +400,10 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 **What interviewers test:**
 
 ```
-❓ Why OOP in PHP?            ❓ Class vs Object?
-❓ Encapsulation in practice  ❓ Abstract vs Interface?
-❓ Polymorphism & type hints   ❓ Traits & conflict resolution
+❓ What is OOP?                ❓ Four OOP principles?
+❓ Class vs Object?            ❓ Instantiation & constructors?
+❓ Encapsulation in practice   ❓ Abstract vs Interface?
+❓ Static vs instance methods  ❓ Traits & conflict resolution
 ❓ Readonly & immutability     ❓ Testing with PHPUnit
 ```
 
@@ -414,7 +415,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 | Progress | Status |
 |:---:|:---|
-| **0 / 31** | 🔒 Not started yet |
+| **0 / 42** | 🔒 Not started yet |
 
 <br/>
 
@@ -522,7 +523,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 │
 ├── 📂  02-Interview-Questions/             ← 💼 Track 2 · guide + workspace
 │   ├── README.md                           ←    Interview question track
-│   ├── Question-01-why-use-oop-in-php/
+│   ├── Question-01-what-is-oop/
 │   └── ...
 │
 └── 📂  03-Final-Project/                   ← 🏆 Track 3 · guide + workspace
