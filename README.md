@@ -46,13 +46,13 @@
 
 ## 📑 Table of Contents
 
-| | Chapter | Page |
-|:---:|:---|:---:|
-| 📊 | [My Progress](#-my-progress) | Where I am now |
+| | Section | What’s inside |
+|:---:|:---|:---|
+| 📊 | [My Progress](#-my-progress) | Status, lecture list, milestones |
 | 🎯 | [Purpose](#-purpose) | Why this book exists |
 | 👤 | [Who This Is For](#-who-this-is-for) | Is this for you? |
-| 🗺️ | [Learning Path](#-learning-path) | The 3-track journey |
-| 📚 | [Track 1 — Lectures](#-track-1--lectures) | 31 sessions |
+| 🗺️ | [Learning Path](#-learning-path) | Lectures → Interviews → Project |
+| 📚 | [Track 1 — Lectures](#-track-1--lectures) | 31 sessions in 3 parts |
 | 💼 | [Track 2 — Interviews](#-track-2--interview-questions) | 42 questions |
 | 🏗️ | [Track 3 — Final Project](#-track-3--final-project) | SupportDesk Lite |
 | 🚀 | [How to Start](#-how-to-start) | Your first step |
@@ -113,7 +113,7 @@
 
 <br/>
 
-> 🎯 **Current focus:** [Lecture 9 — Asymmetric Visibility](#-lecture-progress)  
+> 🎯 **Current focus:** [Lecture 9 — Asymmetric Visibility](01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/)  
 > 🏁 **Last completed:** Lecture 8 — Property Hooks *(PHP 8.4)*  
 > 🏅 **Milestone 1** *(after Lecture 5)* — ✅ Passed
 
@@ -124,67 +124,67 @@
 <br/>
 
 <details open>
-<summary><strong>📗 Part 1 — Foundations</strong> &nbsp;·&nbsp; Lectures 1–10</summary>
+<summary><strong>📗 Part 1 — Foundations</strong> &nbsp;·&nbsp; Lectures 1–10 &nbsp;·&nbsp; <code>Part-1-Foundations/</code></summary>
 
 <br/>
 
-| # | Lecture | Status |
-|:---:|:---|:---:|
-| 01 | The Problem: Why Functions Alone Are Not Enough | ✅ |
-| 02 | The Solution: What Is a Class and What Is an Object? | ✅ |
-| 03 | Properties: Storing Data Inside Objects | ✅ |
-| 04 | Methods: Giving Objects Behavior | ✅ |
-| 05 | The Constructor: Setting Up an Object at Birth | ✅ |
-| 06 | Visibility: Public, Private, and Protected | ✅ |
-| 07 | Encapsulation: Hiding the Internal and Exposing a Safe Surface | ✅ |
-| 08 | Property Hooks: Modern Getters and Setters *(PHP 8.4)* | ✅ |
-| 09 | Asymmetric Visibility: Fine-Tuning Encapsulation *(PHP 8.4)* | 🟡 **Next** |
-| 10 | Inheritance: Building New Classes from Existing Ones | ⬜ |
+| # | Folder | Topic | Status |
+|:---:|:---|:---|:---:|
+| 01 | [`why-not-only-functions`](01-Lectures/Part-1-Foundations/Lecture-01-why-not-only-functions/) | Why Functions Alone Are Not Enough | ✅ |
+| 02 | [`class-and-object`](01-Lectures/Part-1-Foundations/Lecture-02-class-and-object/) | Class and Object | ✅ |
+| 03 | [`properties`](01-Lectures/Part-1-Foundations/Lecture-03-properties/) | Properties | ✅ |
+| 04 | [`methods`](01-Lectures/Part-1-Foundations/Lecture-04-methods/) | Methods | ✅ |
+| 05 | [`Milestone-constructor`](01-Lectures/Part-1-Foundations/Lecture-05-Milestone-constructor/) | Constructor *(Milestone)* | ✅ |
+| 06 | [`visibility`](01-Lectures/Part-1-Foundations/Lecture-06-visibility/) | Visibility | ✅ |
+| 07 | [`encapsulation`](01-Lectures/Part-1-Foundations/Lecture-07-encapsulation/) | Encapsulation | ✅ |
+| 08 | [`property-hooks`](01-Lectures/Part-1-Foundations/Lecture-08-property-hooks/) | Property Hooks *(PHP 8.4)* | ✅ |
+| 09 | [`asymmetric-visibility`](01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/) | Asymmetric Visibility *(PHP 8.4)* | 🟡 **Next** |
+| 10 | [`inheritance`](01-Lectures/Part-1-Foundations/Lecture-10-inheritance/) | Inheritance | ⬜ |
 
 </details>
 
 <br/>
 
 <details>
-<summary><strong>📘 Part 2 — Core OOP</strong> &nbsp;·&nbsp; Lectures 11–20</summary>
+<summary><strong>📘 Part 2 — Core OOP</strong> &nbsp;·&nbsp; Lectures 11–20 &nbsp;·&nbsp; <code>Part-2-Core-OOP/</code></summary>
 
 <br/>
 
-| # | Lecture | Status |
-|:---:|:---|:---:|
-| 11 | Method Overriding and the `parent` Keyword | ⬜ |
-| 12 | The Static Keyword and Class Constants | ⬜ |
-| 13 | Abstract Classes: Forcing a Contract on Children | ⬜ |
-| 14 | Interfaces: Defining a Capability Without Implementation | ⬜ |
-| 15 | Polymorphism: One Interface, Many Shapes | ⬜ |
-| 16 | Type Declarations and Return Types in OOP | ⬜ |
-| 17 | Covariance and Contravariance: Type Safety in Inheritance | ⬜ |
-| 18 | Traits: Sharing Code Across Unrelated Classes | ⬜ |
-| 19 | Magic Methods: `__toString`, `__get`, `__set`, and Others | ⬜ |
-| 20 | Objects and References: Copying, Assigning, and Passing Objects | ⬜ |
+| # | Folder | Topic | Status |
+|:---:|:---|:---|:---:|
+| 11 | [`method-overriding`](01-Lectures/Part-2-Core-OOP/Lecture-11-method-overriding/) | Method Overriding & `parent` | ⬜ |
+| 12 | [`static-and-constants`](01-Lectures/Part-2-Core-OOP/Lecture-12-static-and-constants/) | Static & Class Constants | ⬜ |
+| 13 | [`abstract-classes`](01-Lectures/Part-2-Core-OOP/Lecture-13-abstract-classes/) | Abstract Classes | ⬜ |
+| 14 | [`interfaces`](01-Lectures/Part-2-Core-OOP/Lecture-14-interfaces/) | Interfaces | ⬜ |
+| 15 | [`Milestone-polymorphism`](01-Lectures/Part-2-Core-OOP/Lecture-15-Milestone-polymorphism/) | Polymorphism *(Milestone)* | ⬜ |
+| 16 | [`type-declarations`](01-Lectures/Part-2-Core-OOP/Lecture-16-type-declarations/) | Type Declarations | ⬜ |
+| 17 | [`covariance-contravariance`](01-Lectures/Part-2-Core-OOP/Lecture-17-covariance-contravariance/) | Covariance & Contravariance | ⬜ |
+| 18 | [`traits`](01-Lectures/Part-2-Core-OOP/Lecture-18-traits/) | Traits | ⬜ |
+| 19 | [`magic-methods`](01-Lectures/Part-2-Core-OOP/Lecture-19-magic-methods/) | Magic Methods | ⬜ |
+| 20 | [`objects-and-references`](01-Lectures/Part-2-Core-OOP/Lecture-20-objects-and-references/) | Objects & References | ⬜ |
 
 </details>
 
 <br/>
 
 <details>
-<summary><strong>📙 Part 3 — Modern PHP</strong> &nbsp;·&nbsp; Lectures 21–31</summary>
+<summary><strong>📙 Part 3 — Modern PHP</strong> &nbsp;·&nbsp; Lectures 21–31 &nbsp;·&nbsp; <code>Part-3-Modern-PHP/</code></summary>
 
 <br/>
 
-| # | Lecture | Status |
-|:---:|:---|:---:|
-| 21 | The Final Keyword and Object Cloning | ⬜ |
-| 22 | Readonly Classes and Clone With *(PHP 8.2 & 8.5)* | ⬜ |
-| 23 | Namespaces and Autoloading *(PSR-4)* | ⬜ |
-| 24 | Enumerations: A Modern Way to Represent Fixed Options | ⬜ |
-| 25 | Exceptions and Errors: Object-Oriented Error Handling | ⬜ |
-| 26 | Attributes: Adding Metadata to Code *(PHP 8.0 – 8.5)* | ⬜ |
-| 27 | Anonymous Classes and Object Iteration | ⬜ |
-| 28 | Lazy Objects: Deferring Object Creation *(PHP 8.4)* | ⬜ |
-| 29 | Late Static Bindings, Object Comparison, and Serialization | ⬜ |
-| 30 | Mini-Project: Build a Simple Blog System End to End | ⬜ |
-| 31 | Testing: Writing Unit Tests with PHPUnit | ⬜ |
+| # | Folder | Topic | Status |
+|:---:|:---|:---|:---:|
+| 21 | [`final-and-cloning`](01-Lectures/Part-3-Modern-PHP/Lecture-21-final-and-cloning/) | Final & Cloning | ⬜ |
+| 22 | [`readonly-classes`](01-Lectures/Part-3-Modern-PHP/Lecture-22-readonly-classes/) | Readonly Classes *(PHP 8.2 & 8.5)* | ⬜ |
+| 23 | [`namespaces-autoloading`](01-Lectures/Part-3-Modern-PHP/Lecture-23-namespaces-autoloading/) | Namespaces & Autoloading *(PSR-4)* | ⬜ |
+| 24 | [`Milestone-enumerations`](01-Lectures/Part-3-Modern-PHP/Lecture-24-Milestone-enumerations/) | Enumerations *(Milestone)* | ⬜ |
+| 25 | [`exceptions`](01-Lectures/Part-3-Modern-PHP/Lecture-25-exceptions/) | Exceptions & Errors | ⬜ |
+| 26 | [`attributes`](01-Lectures/Part-3-Modern-PHP/Lecture-26-attributes/) | Attributes *(PHP 8.0 – 8.5)* | ⬜ |
+| 27 | [`anonymous-classes`](01-Lectures/Part-3-Modern-PHP/Lecture-27-anonymous-classes/) | Anonymous Classes & Iteration | ⬜ |
+| 28 | [`lazy-objects`](01-Lectures/Part-3-Modern-PHP/Lecture-28-lazy-objects/) | Lazy Objects *(PHP 8.4)* | ⬜ |
+| 29 | [`lsb-comparison-serialization`](01-Lectures/Part-3-Modern-PHP/Lecture-29-lsb-comparison-serialization/) | LSB, Comparison & Serialization | ⬜ |
+| 30 | [`mini-project-blog`](01-Lectures/Part-3-Modern-PHP/Lecture-30-mini-project-blog/) | Mini-Project: Blog System | ⬜ |
+| 31 | [`Milestone-phpunit-testing`](01-Lectures/Part-3-Modern-PHP/Lecture-31-Milestone-phpunit-testing/) | PHPUnit Testing *(Milestone)* | ⬜ |
 
 </details>
 
@@ -352,7 +352,18 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 |:---|:---|
 | 📂 **Track folder** | [`01-Lectures/`](01-Lectures/) — guide + workspace |
 | 🔢 **Sessions** | **31 lectures** — one concept per session |
+| 🗂️ **Structure** | 3 parts: Foundations → Core OOP → Modern PHP |
 | 📜 **Source** | Official [PHP Manual](https://www.php.net/manual/en/oop5.intro.php) |
+
+<br/>
+
+**How lectures are organized:**
+
+```
+Part-1-Foundations/   →  Lectures 01–10
+Part-2-Core-OOP/      →  Lectures 11–20
+Part-3-Modern-PHP/    →  Lectures 21–31
+```
 
 <br/>
 
@@ -367,7 +378,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 <br/>
 
-> 📊 **My current progress:** **8 / 31** lectures done — see the full [Lecture Progress](#-lecture-progress) table above.
+> 📊 **My current progress:** **8 / 31** lectures done — next is [Lecture 9 — Asymmetric Visibility](01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/).
 
 <br/>
 
@@ -489,16 +500,16 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 
 <br/>
 
-| Step | Action | File |
+| Step | Action | Where |
 |:---:|:---|:---|
-| **1️⃣** | 📖 Open [`01-Lectures/`](01-Lectures/) and start with **Lecture 1** | [`01-Lectures/`](01-Lectures/) |
-| **2️⃣** | ✍️ Write your code in the matching part folder, e.g. `Part-1-Foundations/Lecture-09-asymmetric-visibility/` — one session at a time | [`01-Lectures/`](01-Lectures/) |
-| **3️⃣** | 💼 After all 31 lectures, open [`02-Interview-Questions/`](02-Interview-Questions/) | [`02-Interview-Questions/`](02-Interview-Questions/) |
-| **4️⃣** | 🏗️ When ready, build the capstone in [`03-Final-Project/`](03-Final-Project/) | [`03-Final-Project/`](03-Final-Project/) |
+| **1️⃣** | 📖 Open the lecture guide and start **Lecture 1** | [`01-Lectures/`](01-Lectures/) → [`Lecture-01-why-not-only-functions/`](01-Lectures/Part-1-Foundations/Lecture-01-why-not-only-functions/) |
+| **2️⃣** | ✍️ Type each example into that lecture’s `code-N.php` files — one session at a time | e.g. [`Lecture-09-asymmetric-visibility/`](01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/) |
+| **3️⃣** | 💼 After all 31 lectures, practice interview answers | [`02-Interview-Questions/`](02-Interview-Questions/) |
+| **4️⃣** | 🏗️ Build the capstone when interviews are done | [`03-Final-Project/`](03-Final-Project/) |
 
 <br/>
 
-> ✍️ **Remember:** You write all the code. This book provides the curriculum, structure, and guidance — your practice files live in the workspace folders.
+> ✍️ **Remember:** You write all the code. The guides teach; your practice files live inside each lecture folder.
 
 <br/>
 
@@ -513,34 +524,37 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 ```
 📦 php-oop-documentation/
 │
-├── 📄  README.md                           ← 📘 Start here · repo overview
+├── 📄  README.md                              ← 📘 Start here · repo overview
 │
-├── 📂  01-Lectures/                        ← 📚 Track 1 · guide + workspace
-│   ├── README.md                           ←    Curriculum & progress
-│   ├── Part-1-Foundations/                 ←    Lectures 1–10
+├── 📂  01-Lectures/                           ← 📚 Track 1 · guide + workspace
+│   ├── README.md                              ←    Curriculum & progress
+│   ├── Part-1-Foundations/                    ←    Lectures 01–10
 │   │   ├── Lecture-01-why-not-only-functions/
+│   │   ├── Lecture-05-Milestone-constructor/
+│   │   ├── Lecture-09-asymmetric-visibility/  ←    🟡 you are here
 │   │   └── ...
-│   ├── Part-2-Core-OOP/                    ←    Lectures 11–20
+│   ├── Part-2-Core-OOP/                       ←    Lectures 11–20
 │   │   ├── Lecture-11-method-overriding/
 │   │   ├── Lecture-15-Milestone-polymorphism/
 │   │   └── ...
-│   └── Part-3-Modern-PHP/                  ←    Lectures 21–31
+│   └── Part-3-Modern-PHP/                     ←    Lectures 21–31
 │       ├── Lecture-21-final-and-cloning/
 │       ├── Lecture-31-Milestone-phpunit-testing/
 │       └── ...
 │
-├── 📂  02-Interview-Questions/             ← 💼 Track 2 · guide + workspace
-│   ├── README.md                           ←    Interview question track
+├── 📂  02-Interview-Questions/                ← 💼 Track 2 · 42 questions
+│   ├── README.md
 │   ├── Question-01-what-is-oop/
 │   └── ...
 │
-└── 📂  03-Final-Project/                   ← 🏆 Track 3 · guide + workspace
-    ├── README.md                           ←    Capstone project guide
-    ├── src/                                ←    (student-created)
-    └── tests/                              ←    (student-created)
+└── 📂  03-Final-Project/                      ← 🏆 Track 3 · SupportDesk Lite
+    ├── README.md
+    ├── src/                                   ←    (student-created)
+    └── tests/                                 ←    (student-created)
 ```
 
-> 💡 **Professional layout:** Each track folder is self-contained — open it on GitHub and the guide appears automatically.
+> 💡 Each track folder is self-contained — open it on GitHub and its guide appears automatically.  
+> 🏷️ Lecture folders use `Lecture-NN-topic` so you can find the right session at a glance.
 
 <br/>
 
