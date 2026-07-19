@@ -43,41 +43,41 @@ Deliver exactly one lecture per session unless the student explicitly requests t
 
 ```
 Part 1 — Foundations (Lectures 1–10)  →  Part-1-Foundations/
-Lecture 1  - The Problem: Why Functions Alone Are Not Enough ✅
-Lecture 2  - The Solution: What Is a Class and What Is an Object? ✅
-Lecture 3  - Properties: Storing Data Inside Objects ✅
-Lecture 4  - Methods: Giving Objects Behavior ✅
-Lecture 5  - The Constructor: Setting Up an Object at Birth ✅
-Lecture 6  - Visibility: Public, Private, and Protected ✅
-Lecture 7  - Encapsulation: Hiding the Internal and Exposing a Safe Surface ✅
-Lecture 8  - Property Hooks: Modern Getters and Setters (PHP 8.4) ✅
-Lecture 9  - Asymmetric Visibility: Fine-Tuning Encapsulation (PHP 8.4)
-Lecture 10 - Inheritance: Building New Classes from Existing Ones
+Lecture 1  - why-not-only-functions          ✅  Why Functions Alone Are Not Enough
+Lecture 2  - class-and-object                ✅  What Is a Class and What Is an Object?
+Lecture 3  - properties                      ✅  Storing Data Inside Objects
+Lecture 4  - methods                         ✅  Giving Objects Behavior
+Lecture 5  - Milestone-constructor           ✅  Setting Up an Object at Birth
+Lecture 6  - visibility                      ✅  Public, Private, and Protected
+Lecture 7  - encapsulation                   ✅  Hiding the Internal and Exposing a Safe Surface
+Lecture 8  - property-hooks                  ✅  Modern Getters and Setters (PHP 8.4)
+Lecture 9  - asymmetric-visibility               Fine-Tuning Encapsulation (PHP 8.4)
+Lecture 10 - inheritance                         Building New Classes from Existing Ones
 
 Part 2 — Core OOP (Lectures 11–20)  →  Part-2-Core-OOP/
-Lecture 11 - Method Overriding and the parent Keyword
-Lecture 12 - The Static Keyword and Class Constants
-Lecture 13 - Abstract Classes: Forcing a Contract on Children
-Lecture 14 - Interfaces: Defining a Capability Without Implementation
-Lecture 15 - Polymorphism: One Interface, Many Shapes
-Lecture 16 - Type Declarations and Return Types in OOP
-Lecture 17 - Covariance and Contravariance: Type Safety in Inheritance
-Lecture 18 - Traits: Sharing Code Across Unrelated Classes
-Lecture 19 - Magic Methods: __toString, __get, __set, and Others
-Lecture 20 - Objects and References: Copying, Assigning, and Passing Objects
+Lecture 11 - method-overriding                   Method Overriding and the parent Keyword
+Lecture 12 - static-and-constants                The Static Keyword and Class Constants
+Lecture 13 - abstract-classes                    Forcing a Contract on Children
+Lecture 14 - interfaces                          Defining a Capability Without Implementation
+Lecture 15 - Milestone-polymorphism              One Interface, Many Shapes
+Lecture 16 - type-declarations                   Type Declarations and Return Types in OOP
+Lecture 17 - covariance-contravariance           Type Safety in Inheritance
+Lecture 18 - traits                              Sharing Code Across Unrelated Classes
+Lecture 19 - magic-methods                       __toString, __get, __set, and Others
+Lecture 20 - objects-and-references              Copying, Assigning, and Passing Objects
 
 Part 3 — Modern PHP (Lectures 21–31)  →  Part-3-Modern-PHP/
-Lecture 21 - The Final Keyword and Object Cloning
-Lecture 22 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
-Lecture 23 - Namespaces and Autoloading (PSR-4)
-Lecture 24 - Enumerations: A Modern Way to Represent Fixed Options
-Lecture 25 - Exceptions and Errors: Object-Oriented Error Handling
-Lecture 26 - Attributes: Adding Metadata to Code (PHP 8.0 - 8.5)
-Lecture 27 - Anonymous Classes and Object Iteration
-Lecture 28 - Lazy Objects: Deferring Object Creation (PHP 8.4)
-Lecture 29 - Late Static Bindings, Object Comparison, and Serialization
-Lecture 30 - Mini-Project: Build a Simple Blog System End to End
-Lecture 31 - Testing: Writing Unit Tests for Your Classes with PHPUnit
+Lecture 21 - final-and-cloning                   The Final Keyword and Object Cloning
+Lecture 22 - readonly-classes                    Readonly Classes and Clone With (PHP 8.2 & 8.5)
+Lecture 23 - namespaces-autoloading              Namespaces and Autoloading (PSR-4)
+Lecture 24 - Milestone-enumerations              A Modern Way to Represent Fixed Options
+Lecture 25 - exceptions                          Object-Oriented Error Handling
+Lecture 26 - attributes                          Adding Metadata to Code (PHP 8.0 - 8.5)
+Lecture 27 - anonymous-classes                   Anonymous Classes and Object Iteration
+Lecture 28 - lazy-objects                        Deferring Object Creation (PHP 8.4)
+Lecture 29 - lsb-comparison-serialization        Late Static Bindings, Comparison, Serialization
+Lecture 30 - mini-project-blog                   Build a Simple Blog System End to End
+Lecture 31 - Milestone-phpunit-testing           Writing Unit Tests with PHPUnit
 ```
 
 Milestone checks run after Lectures 5, 15, 24, and 31 (see below).
@@ -321,7 +321,7 @@ This is a deliberate learning rule, not a limitation. The tutor teaches by showi
 
 ### What the student does
 
-- **Write** every `code-N.php` file by hand in the matching part folder, for example `01-Lectures/Part-1-Foundations/Lecture-09/`.
+- **Write** every `code-N.php` file by hand in the matching part folder, for example `01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/`.
 - **Write** every `review-N.md` summary file by hand.
 - Run the code locally and fix errors before moving on.
 - Do not wait for the tutor to create or save files in the workspace.
@@ -360,46 +360,46 @@ Use **numeric prefixes** (`01-`, `02-`, `03-`) so GitHub lists tracks in learnin
 ```
 01-Lectures/
   README.md
-  Part-1-Foundations/                 // Lectures 1–10
-    Lecture-01/
-      code-1.php                      // First code block of the lecture
-      code-2.php                      // Second code block, in the order shown
-      code-3.php                      // Third, and so on
-      review-N.md                     // The Phase 3 review/summary block (always last)
-    Lecture-02/
+  Part-1-Foundations/                                    // Lectures 1–10
+    Lecture-01-why-not-only-functions/
+      code-1.php                                         // First code block of the lecture
+      code-2.php                                         // Second code block, in the order shown
+      code-3.php                                         // Third, and so on
+      review-N.md                                        // The Phase 3 review/summary block (always last)
+    Lecture-02-class-and-object/
       ...
-    Lecture-05-Milestone/             // Milestone lectures use the "-Milestone" suffix
+    Lecture-05-Milestone-constructor/                    // Milestone + concise topic name
       code-1.php
       ...
       review-N.md
-      Milestone/                      // The student's milestone solution lives here
+      Milestone/                                         // The student's milestone solution lives here
         Product.php
-    Lecture-06/
+    Lecture-06-visibility/
       ...
-    Lecture-10/
+    Lecture-10-inheritance/
       ...
-  Part-2-Core-OOP/                    // Lectures 11–20
-    Lecture-11/
+  Part-2-Core-OOP/                                       // Lectures 11–20
+    Lecture-11-method-overriding/
       ...
-    Lecture-15-Milestone/
-      ...
-      Milestone/
-    Lecture-20/
-      ...
-  Part-3-Modern-PHP/                  // Lectures 21–31
-    Lecture-21/
-      ...
-    Lecture-24-Milestone/
+    Lecture-15-Milestone-polymorphism/
       ...
       Milestone/
-    Lecture-31-Milestone/
+    Lecture-20-objects-and-references/
+      ...
+  Part-3-Modern-PHP/                                     // Lectures 21–31
+    Lecture-21-final-and-cloning/
+      ...
+    Lecture-24-Milestone-enumerations/
+      ...
+      Milestone/
+    Lecture-31-Milestone-phpunit-testing/
       ...
       Milestone/
 ```
 
 - Lectures are grouped into three part folders: `Part-1-Foundations/`, `Part-2-Core-OOP/`, and `Part-3-Modern-PHP/`.
-- Each lecture has its own folder named `Lecture-NN` — always use **two digits** (`01`, `02`, … `31`) so GitHub lists folders in the correct order.
-- Add `-Milestone` for milestone lectures: **05**, **15**, **24**, **31** (for example `Part-1-Foundations/Lecture-05-Milestone/`).
+- Each lecture folder is named `Lecture-NN-concise-topic` — two-digit number first so GitHub keeps learning order, then a short topic slug for the learner.
+- Milestone lectures use `Lecture-NN-Milestone-topic` for **05**, **15**, **24**, and **31** (for example `Part-1-Foundations/Lecture-05-Milestone-constructor/`).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
 - The review/summary block is saved as `review-N.md` — use **lowercase** so it sorts after all `code-N.php` files on GitHub.
 - Every `review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
