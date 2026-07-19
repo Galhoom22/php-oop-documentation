@@ -1,6 +1,6 @@
 # Lecture 28 — Lazy Objects
 
-> Your quick recap after finishing this lecture.
+> Lazy objects (PHP 8.4) act as lightweight placeholders and only run expensive setup when the object is first used. That saves time and memory when creation is heavy but not always needed.
 
 ---
 

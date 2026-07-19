@@ -1,6 +1,6 @@
 # Lecture 04 — Methods
 
-> Your quick recap after finishing this lecture.
+> Methods give objects behavior. Inside a method, `$this` always means the specific object you called the method on, so the same method can work differently for different objects.
 
 ---
 

@@ -1,6 +1,6 @@
 # Lecture 15 — Polymorphism (Milestone)
 
-> Your quick recap after finishing this lecture.
+> Polymorphism means one shared type (often an interface) can accept many different objects, each behaving in its own way. That removes long if/else chains and makes new shapes easy to add.
 
 ---
 

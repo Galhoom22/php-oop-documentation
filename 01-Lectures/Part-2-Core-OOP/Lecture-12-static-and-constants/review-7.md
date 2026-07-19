@@ -1,6 +1,6 @@
 # Lecture 12 — Static and Constants
 
-> Your quick recap after finishing this lecture.
+> Static members belong to the class itself, not to one object, and are called with `ClassName::`. Class constants are fixed shared values; static properties can change and should be used carefully.
 
 ---
 

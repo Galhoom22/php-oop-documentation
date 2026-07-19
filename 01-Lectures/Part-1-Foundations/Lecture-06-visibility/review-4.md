@@ -1,6 +1,6 @@
 # Lecture 06 — Visibility
 
-> Your quick recap after finishing this lecture.
+> Visibility controls who may touch a property or method: `public` from anywhere, `private` only inside the class, and `protected` inside the class and its children. Private is the safest default.
 
 ---
 

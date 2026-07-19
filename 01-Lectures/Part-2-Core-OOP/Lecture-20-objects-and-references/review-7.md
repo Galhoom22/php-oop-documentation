@@ -1,6 +1,6 @@
 # Lecture 20 — Objects and References
 
-> Your quick recap after finishing this lecture.
+> An object variable stores a handle to the object, not a full copy. Assigning or passing an object shares the same instance, so a change through one variable is visible through the other.
 
 ---
 

@@ -1,6 +1,6 @@
 # Lecture 24 — Enumerations (Milestone)
 
-> Your quick recap after finishing this lecture.
+> Enums represent a fixed set of valid options as first-class types. Unit enums name the cases; backed enums also store string or int values and work cleanly in type hints.
 
 ---
 

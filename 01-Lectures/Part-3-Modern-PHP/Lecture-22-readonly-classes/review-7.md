@@ -1,6 +1,6 @@
 # Lecture 22 — Readonly Classes
 
-> Your quick recap after finishing this lecture.
+> Readonly properties and classes make objects immutable after construction, which prevents accidental change. PHP 8.5 `clone with` makes creating a modified copy of a readonly object simple and clear.
 
 ---
 

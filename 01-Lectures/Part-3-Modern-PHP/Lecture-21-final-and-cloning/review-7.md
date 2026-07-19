@@ -1,6 +1,6 @@
 # Lecture 21 — Final and Cloning
 
-> Your quick recap after finishing this lecture.
+> `final` locks a class or method against extension or override. `clone` creates a separate copy of an object, and `__clone` lets you control what that copy should look like.
 
 ---
 

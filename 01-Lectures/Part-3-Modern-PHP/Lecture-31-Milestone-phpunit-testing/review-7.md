@@ -1,6 +1,6 @@
 # Lecture 31 — PHPUnit Testing (Milestone)
 
-> Your quick recap after finishing this lecture.
+> PHPUnit lets you prove OOP behavior with focused unit tests: arrange the object, act on it, and assert the result. Good tests protect your classes as the project grows.
 
 ---
 

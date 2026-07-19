@@ -1,6 +1,6 @@
 # Lecture 10 — Inheritance
 
-> Your quick recap after finishing this lecture.
+> Inheritance lets a child class reuse a parent's public and protected members with `extends`. PHP allows only one parent, and private members of the parent stay hidden from the child.
 
 ---
 

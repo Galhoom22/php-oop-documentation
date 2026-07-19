@@ -1,6 +1,6 @@
 # Lecture 17 — Covariance and Contravariance
 
-> Your quick recap after finishing this lecture.
+> When overriding methods, return types may become more specific (covariance) and parameter types may become wider (contravariance). Those rules keep inheritance type-safe instead of surprising.
 
 ---
 

@@ -1,6 +1,6 @@
 # Lecture 29 — LSB, Comparison, and Serialization
 
-> Your quick recap after finishing this lecture.
+> `static::` follows the class that was actually called (late static binding), while `self::` stays with the defining class. Object comparison and serialization then control identity and how objects travel as strings.
 
 ---
 

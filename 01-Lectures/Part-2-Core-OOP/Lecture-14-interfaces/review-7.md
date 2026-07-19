@@ -1,6 +1,6 @@
 # Lecture 14 — Interfaces
 
-> Your quick recap after finishing this lecture.
+> An interface defines a capability as method signatures with no normal implementation. A class can implement many interfaces, promising those abilities without being locked into a single parent class.
 
 ---
 

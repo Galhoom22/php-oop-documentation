@@ -1,6 +1,6 @@
 # Lecture 18 — Traits
 
-> Your quick recap after finishing this lecture.
+> Traits share reusable methods across unrelated classes without true multiple inheritance. When two traits collide, `insteadof` and `as` decide which method wins and how it is named.
 
 ---
 

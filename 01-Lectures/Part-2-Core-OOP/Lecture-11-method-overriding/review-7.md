@@ -1,6 +1,6 @@
 # Lecture 11 — Method Overriding
 
-> Your quick recap after finishing this lecture.
+> A child class can replace a parent's method by declaring the same name, and can still call the original with `parent::method()`. That is how you customize behavior without throwing away the parent's work.
 
 ---
 

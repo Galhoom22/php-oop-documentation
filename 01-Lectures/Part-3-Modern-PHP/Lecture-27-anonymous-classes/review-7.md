@@ -1,6 +1,6 @@
 # Lecture 27 — Anonymous Classes
 
-> Your quick recap after finishing this lecture.
+> Anonymous classes create a one-off object with `new class` when a full named class would be overkill. Objects can also be iterated, and custom iteration is possible through the Iterator interface.
 
 ---
 

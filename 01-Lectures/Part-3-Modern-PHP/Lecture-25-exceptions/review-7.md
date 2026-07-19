@@ -1,6 +1,6 @@
 # Lecture 25 — Exceptions
 
-> Your quick recap after finishing this lecture.
+> Exceptions turn failures into objects you can throw and catch with `try`, `catch`, and `finally`. Custom exception classes describe domain-specific problems more clearly than a generic message.
 
 ---
 

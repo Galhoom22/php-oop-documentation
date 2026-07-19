@@ -1,6 +1,6 @@
 # Lecture 19 — Magic Methods
 
-> Your quick recap after finishing this lecture.
+> Magic methods such as `__toString`, `__get`, `__set`, and `__destruct` run automatically when PHP hits certain moments. They are powerful, but overusing them makes code harder to follow.
 
 ---
 

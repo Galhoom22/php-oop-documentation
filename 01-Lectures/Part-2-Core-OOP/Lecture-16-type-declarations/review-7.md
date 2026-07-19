@@ -1,6 +1,6 @@
 # Lecture 16 — Type Declarations
 
-> Your quick recap after finishing this lecture.
+> Type declarations and return types make OOP PHP safer by stating what a method accepts and returns. Nullable types, unions, `instanceof`, and the nullsafe operator help you handle real-world edge cases clearly.
 
 ---
 

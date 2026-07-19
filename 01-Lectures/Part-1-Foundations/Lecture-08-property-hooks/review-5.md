@@ -1,6 +1,6 @@
 # Lecture 08 — Property Hooks
 
-> Your quick recap after finishing this lecture.
+> Property hooks (PHP 8.4) attach get and set logic directly to a property, so outside code can use normal property syntax while the class still validates and formats values automatically.
 
 ---
 

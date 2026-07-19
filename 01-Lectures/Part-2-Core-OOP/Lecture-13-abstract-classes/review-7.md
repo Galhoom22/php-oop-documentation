@@ -1,6 +1,6 @@
 # Lecture 13 — Abstract Classes
 
-> Your quick recap after finishing this lecture.
+> An abstract class is an incomplete blueprint: you cannot instantiate it, and its abstract methods force every concrete child to supply the missing behavior while shared concrete methods can still be inherited.
 
 ---
 

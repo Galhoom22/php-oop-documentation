@@ -1,6 +1,6 @@
 # Lecture 09 — Asymmetric Visibility
 
-> Your quick recap after finishing this lecture.
+> Asymmetric visibility (PHP 8.4) lets a property be readable from outside while remaining writable only inside the class — perfect when callers need to see a value but must not change it.
 
 ---
 

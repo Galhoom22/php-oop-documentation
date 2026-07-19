@@ -1,6 +1,6 @@
 # Lecture 26 — Attributes
 
-> Your quick recap after finishing this lecture.
+> Attributes attach metadata to code with `#[...]` without changing normal execution. Built-ins like `Deprecated` and `NoDiscard` give PHP and your tools strong, structured hints.
 
 ---
 

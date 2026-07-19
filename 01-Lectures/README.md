@@ -150,7 +150,7 @@ End every lecture with this study-card block. Save it as `review-N.md`. The **Of
 ```markdown
 # Lecture NN — Short Topic Title
 
-> Your quick recap after finishing this lecture.
+> [One or two sentences that capture the heart of this lecture for the learner.]
 
 ---
 

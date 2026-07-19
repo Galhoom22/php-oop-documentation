@@ -1,6 +1,6 @@
 # Lecture 05 — Constructor (Milestone)
 
-> Your quick recap after finishing this lecture.
+> The constructor runs automatically when you create an object with `new`, so required data can be set at birth. Constructor promotion is the modern shorthand that declares and assigns properties in one line.
 
 ---
 

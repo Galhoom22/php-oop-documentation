@@ -1,6 +1,6 @@
 # Lecture 03 — Properties
 
-> Your quick recap after finishing this lecture.
+> Properties are the labeled data slots inside a class. Each object gets its own copy of those values, and you reach them with the arrow operator `->`.
 
 ---
 

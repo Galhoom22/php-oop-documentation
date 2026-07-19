@@ -1,6 +1,6 @@
 # Lecture 23 — Namespaces and Autoloading
 
-> Your quick recap after finishing this lecture.
+> Namespaces keep class names organized like folders, and `use` imports them cleanly. Autoloading (especially PSR-4) loads the right file automatically when you ask for a class by name.
 
 ---
 

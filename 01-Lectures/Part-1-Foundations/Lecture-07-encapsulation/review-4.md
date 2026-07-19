@@ -1,6 +1,6 @@
 # Lecture 07 — Encapsulation
 
-> Your quick recap after finishing this lecture.
+> Encapsulation hides internal data and exposes only a safe public surface. Setters and getters are the controlled doors that validate changes before the object accepts them.
 
 ---
 

@@ -1,6 +1,6 @@
 # Lecture 02 — Class and Object
 
-> Your quick recap after finishing this lecture.
+> A class is the blueprint you write once; an object is a living instance created with `new`. One class can produce many independent objects, each with its own life in memory.
 
 ---
 

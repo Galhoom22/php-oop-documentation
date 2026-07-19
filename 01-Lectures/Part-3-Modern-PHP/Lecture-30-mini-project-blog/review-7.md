@@ -1,6 +1,6 @@
 # Lecture 30 — Mini-Project: Blog
 
-> Your quick recap after finishing this lecture.
+> This mini-project pulls the track together: models, interfaces, traits, enums, exceptions, namespaces, and storage working as one small blog application you can explain end to end.
 
 ---
 

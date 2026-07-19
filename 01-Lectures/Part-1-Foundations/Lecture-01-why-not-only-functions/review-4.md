@@ -1,6 +1,6 @@
 # Lecture 01 — Why Not Only Functions
 
-> Your quick recap after finishing this lecture.
+> Procedural code scatters data and behavior into separate variables and functions, so growth brings duplication and fragile change. OOP solves this by keeping related data and behavior together in one unit.
 
 ---
 
