@@ -492,7 +492,7 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 | Step | Action | File |
 |:---:|:---|:---|
 | **1️⃣** | 📖 Open [`01-Lectures/`](01-Lectures/) and start with **Lecture 1** | [`01-Lectures/`](01-Lectures/) |
-| **2️⃣** | ✍️ Write your code in the matching part folder, e.g. `Part-1-Foundations/Lecture-09/` — one session at a time | [`01-Lectures/`](01-Lectures/) |
+| **2️⃣** | ✍️ Write your code in the matching part folder, e.g. `Part-1-Foundations/Lecture-09-asymmetric-visibility/` — one session at a time | [`01-Lectures/`](01-Lectures/) |
 | **3️⃣** | 💼 After all 31 lectures, open [`02-Interview-Questions/`](02-Interview-Questions/) | [`02-Interview-Questions/`](02-Interview-Questions/) |
 | **4️⃣** | 🏗️ When ready, build the capstone in [`03-Final-Project/`](03-Final-Project/) | [`03-Final-Project/`](03-Final-Project/) |
 
@@ -518,13 +518,15 @@ Object-Oriented Programming is how **real PHP applications** are built — from 
 ├── 📂  01-Lectures/                        ← 📚 Track 1 · guide + workspace
 │   ├── README.md                           ←    Curriculum & progress
 │   ├── Part-1-Foundations/                 ←    Lectures 1–10
-│   │   ├── Lecture-01/
+│   │   ├── Lecture-01-why-not-only-functions/
 │   │   └── ...
 │   ├── Part-2-Core-OOP/                    ←    Lectures 11–20
-│   │   ├── Lecture-11/
+│   │   ├── Lecture-11-method-overriding/
+│   │   ├── Lecture-15-Milestone-polymorphism/
 │   │   └── ...
 │   └── Part-3-Modern-PHP/                  ←    Lectures 21–31
-│       ├── Lecture-21/
+│       ├── Lecture-21-final-and-cloning/
+│       ├── Lecture-31-Milestone-phpunit-testing/
 │       └── ...
 │
 ├── 📂  02-Interview-Questions/             ← 💼 Track 2 · guide + workspace
