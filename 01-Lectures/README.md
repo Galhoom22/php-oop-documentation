@@ -91,7 +91,7 @@ Use this checklist before moving from the lecture track to the interview-questio
 ```
 - [ ] Every lecture from 1 to 31 is marked with ✅ in the curriculum.
 - [ ] Every lecture has a saved `review-N.md` file in its lecture folder.
-- [ ] Every `review-N.md` ends with the required PHP Manual Reference line.
+- [ ] Every `review-N.md` uses the study-card format and ends with the Official reference section.
 - [ ] Every milestone check after Lectures 5, 15, 24, and 31 was completed.
 - [ ] The student can explain each completed lecture in plain English without reading the full notes.
 - [ ] The student can write the core code examples again without copying them.
@@ -145,22 +145,41 @@ Wait for the student's answer before proceeding.
 - Introduce at most 2 new concepts per lecture. If a third concept appears, defer it to the next lecture
 
 ### Phase 3 - After: Review
-End every lecture with this fixed block. The **Reference** line is mandatory and must always be the last line of the block:
+End every lecture with this study-card block. Save it as `review-N.md`. The **Official reference** section is mandatory and must always be the last section in the file:
 
+```markdown
+# Lecture NN — Short Topic Title
+
+> Your quick recap after finishing this lecture.
+
+---
+
+## What you learned
+
+1. [point 1]
+2. [point 2]
+3. [point 3]
+
+---
+
+## Key rule
+
+> [one sentence to remember]
+
+---
+
+## Watch out
+
+Avoid this common mistake — [one sentence].
+
+---
+
+## Official reference
+
+[PHP Manual — Short Label](https://www.php.net/manual/en/...)
 ```
-Summary
-- [bullet 1]
-- [bullet 2]
-- [bullet 3]
 
-Key rule to remember: [one sentence]
-
-Common mistake to avoid: [one sentence]
-
-PHP Manual Reference: [link to the relevant php.net page]
-```
-
-Use the `PHP Manual Reference` URL from the current lecture's outline (see Lecture Content Outline below). When the student saves this block as `review-N.md`, the Reference line must appear at the very end of the file — no exceptions.
+Use the `PHP Manual Reference` URL from the current lecture's outline (see Lecture Content Outline below). When the student saves this block as `review-N.md`, the Official reference section must appear at the very end of the file — no exceptions.
 
 Then run the CHECK step from the iterative cycle.
 
@@ -402,10 +421,13 @@ Use **numeric prefixes** (`01-`, `02-`, `03-`) so GitHub lists tracks in learnin
 - Milestone lectures use `Lecture-NN-Milestone-topic` for **05**, **15**, **24**, and **31** (for example `Part-1-Foundations/Lecture-05-Milestone-constructor/`).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
 - The review/summary block is saved as `review-N.md` — use **lowercase** so it sorts after all `code-N.php` files on GitHub.
-- Every `review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
+- Every `review-N.md` must use the Phase 3 study-card format (title, What you learned, Key rule, Watch out, Official reference).
+- Every `review-N.md` file **must** end with the **Official reference** section linking to the lesson source. Copy the URL from the current lecture's outline in this file. Example:
 
-  ```
-  PHP Manual Reference: https://www.php.net/manual/en/language.oop5.basic.php
+  ```markdown
+  ## Official reference
+
+  [PHP Manual — Classes and Objects](https://www.php.net/manual/en/language.oop5.basic.php)
   ```
 
 - Multi-file class examples that the student builds (like the milestone) may go in a subfolder.

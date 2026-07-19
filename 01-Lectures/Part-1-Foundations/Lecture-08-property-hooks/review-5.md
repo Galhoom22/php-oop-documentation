@@ -1,10 +1,29 @@
-Summary
-- Property hooks (PHP 8.4) attach get and set logic directly to a property instead of separate getter/setter methods.
-- The set hook runs automatically on write and can validate; the get hook runs on read and can format the value.
-- Outside code uses normal property syntax ($obj->price = 100), while the class still controls what gets stored and returned.
+# Lecture 08 — Property Hooks
 
-Key rule to remember: Property hooks give you encapsulation without boilerplate — write to the property normally, and PHP runs your rules automatically.
+> Your quick recap after finishing this lecture.
 
-Common mistake to avoid: Forgetting that $value (not $this->price) is the incoming value inside a set hook block.
+---
 
-PHP Manual Reference: https://www.php.net/manual/en/language.oop5.property-hooks.php
+## What you learned
+
+1. Property hooks (PHP 8.4) attach `get` and `set` logic directly to a property instead of separate getter/setter methods.
+2. The `set` hook runs automatically on write and can validate; the `get` hook runs on read and can format the value.
+3. Outside code uses normal property syntax (`$obj->price = 100`), while the class still controls what gets stored and returned.
+
+---
+
+## Key rule
+
+> Property hooks give you encapsulation without boilerplate — write to the property normally, and PHP runs your rules automatically.
+
+---
+
+## Watch out
+
+Avoid this common mistake — forgetting that `$value` (not `$this->price`) is the incoming value inside a `set` hook block.
+
+---
+
+## Official reference
+
+[PHP Manual — Property Hooks](https://www.php.net/manual/en/language.oop5.property-hooks.php)
