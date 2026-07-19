@@ -42,6 +42,7 @@ Student profile: no computer science background, knows basic PHP only (variables
 Deliver exactly one lecture per session unless the student explicitly requests to continue.
 
 ```
+Part 1 — Foundations (Lectures 1–10)  →  Part-1-Foundations/
 Lecture 1  - The Problem: Why Functions Alone Are Not Enough ✅
 Lecture 2  - The Solution: What Is a Class and What Is an Object? ✅
 Lecture 3  - Properties: Storing Data Inside Objects ✅
@@ -52,6 +53,8 @@ Lecture 7  - Encapsulation: Hiding the Internal and Exposing a Safe Surface ✅
 Lecture 8  - Property Hooks: Modern Getters and Setters (PHP 8.4) ✅
 Lecture 9  - Asymmetric Visibility: Fine-Tuning Encapsulation (PHP 8.4)
 Lecture 10 - Inheritance: Building New Classes from Existing Ones
+
+Part 2 — Core OOP (Lectures 11–20)  →  Part-2-Core-OOP/
 Lecture 11 - Method Overriding and the parent Keyword
 Lecture 12 - The Static Keyword and Class Constants
 Lecture 13 - Abstract Classes: Forcing a Contract on Children
@@ -62,6 +65,8 @@ Lecture 17 - Covariance and Contravariance: Type Safety in Inheritance
 Lecture 18 - Traits: Sharing Code Across Unrelated Classes
 Lecture 19 - Magic Methods: __toString, __get, __set, and Others
 Lecture 20 - Objects and References: Copying, Assigning, and Passing Objects
+
+Part 3 — Modern PHP (Lectures 21–31)  →  Part-3-Modern-PHP/
 Lecture 21 - The Final Keyword and Object Cloning
 Lecture 22 - Readonly Classes and Clone With (PHP 8.2 & PHP 8.5)
 Lecture 23 - Namespaces and Autoloading (PSR-4)
@@ -316,7 +321,7 @@ This is a deliberate learning rule, not a limitation. The tutor teaches by showi
 
 ### What the student does
 
-- **Write** every `code-N.php` file by hand in the matching `01-Lectures/Lecture-NN/` folder.
+- **Write** every `code-N.php` file by hand in the matching part folder, for example `01-Lectures/Part-1-Foundations/Lecture-09/`.
 - **Write** every `review-N.md` summary file by hand.
 - Run the code locally and fix errors before moving on.
 - Do not wait for the tutor to create or save files in the workspace.
@@ -354,28 +359,47 @@ Use **numeric prefixes** (`01-`, `02-`, `03-`) so GitHub lists tracks in learnin
 
 ```
 01-Lectures/
-  Lecture-01/
-    code-1.php        // First code block of the lecture
-    code-2.php        // Second code block, in the order shown
-    code-3.php        // Third, and so on
-    review-N.md       // The Phase 3 review/summary block (always last)
-  Lecture-02/
-    code-1.php
-    code-2.php
-    ...
-    review-N.md
-  Lecture-05-Milestone/  // Milestone lectures use the "-Milestone" suffix
-    code-1.php
-    ...
-    review-N.md
-    Milestone/          // The student's milestone solution lives here
-      Product.php
-  Lecture-06/
-    ...
+  README.md
+  Part-1-Foundations/                 // Lectures 1–10
+    Lecture-01/
+      code-1.php                      // First code block of the lecture
+      code-2.php                      // Second code block, in the order shown
+      code-3.php                      // Third, and so on
+      review-N.md                     // The Phase 3 review/summary block (always last)
+    Lecture-02/
+      ...
+    Lecture-05-Milestone/             // Milestone lectures use the "-Milestone" suffix
+      code-1.php
+      ...
+      review-N.md
+      Milestone/                      // The student's milestone solution lives here
+        Product.php
+    Lecture-06/
+      ...
+    Lecture-10/
+      ...
+  Part-2-Core-OOP/                    // Lectures 11–20
+    Lecture-11/
+      ...
+    Lecture-15-Milestone/
+      ...
+      Milestone/
+    Lecture-20/
+      ...
+  Part-3-Modern-PHP/                  // Lectures 21–31
+    Lecture-21/
+      ...
+    Lecture-24-Milestone/
+      ...
+      Milestone/
+    Lecture-31-Milestone/
+      ...
+      Milestone/
 ```
 
+- Lectures are grouped into three part folders: `Part-1-Foundations/`, `Part-2-Core-OOP/`, and `Part-3-Modern-PHP/`.
 - Each lecture has its own folder named `Lecture-NN` — always use **two digits** (`01`, `02`, … `31`) so GitHub lists folders in the correct order.
-- Add `-Milestone` for milestone lectures: **05**, **15**, **24**, **31** (for example `Lecture-05-Milestone/`).
+- Add `-Milestone` for milestone lectures: **05**, **15**, **24**, **31** (for example `Part-1-Foundations/Lecture-05-Milestone/`).
 - Code blocks are saved as `code-1.php`, `code-2.php`, ... numbered in the order they appear in the lecture.
 - The review/summary block is saved as `review-N.md` — use **lowercase** so it sorts after all `code-N.php` files on GitHub.
 - Every `review-N.md` file **must** end with a **Reference** line that links to the lesson source. Copy the `PHP Manual Reference` URL from the current lecture's outline in this file. This line is always the last line of the file. Example:
