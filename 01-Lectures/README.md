@@ -52,7 +52,7 @@ Lecture 6  - visibility                      ✅  Public, Private, and Protected
 Lecture 7  - encapsulation                   ✅  Hiding the Internal and Exposing a Safe Surface
 Lecture 8  - property-hooks                  ✅  Modern Getters and Setters (PHP 8.4)
 Lecture 9  - asymmetric-visibility           ✅  Fine-Tuning Encapsulation (PHP 8.4)
-Lecture 10 - inheritance                         Building New Classes from Existing Ones
+Lecture 10 - inheritance                     ✅  Building New Classes from Existing Ones
 
 Part 2 — Core OOP (Lectures 11–20)  →  Part-2-Core-OOP/
 Lecture 11 - method-overriding                   Method Overriding and the parent Keyword

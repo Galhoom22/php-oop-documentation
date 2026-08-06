@@ -6,24 +6,24 @@
 
 ## What you learned
 
-1. _Write your first summary point here._
-2. _Write your second summary point here._
-3. _Write your third summary point here._
+1. `extends` creates a parent→child link so the child reuses the parent's public and protected members.
+2. A child does not get usable access to the parent's `private` members.
+3. If a child defines its own constructor, it must call `parent::__construct(...)` itself — PHP will not call it automatically.
 
 ---
 
 ## Key rule
 
-> _Write one clear sentence to remember._
+> Use `extends` to reuse a parent's public/protected members; never expect private parent data or an automatic parent constructor call.
 
 ---
 
 ## Watch out
 
-Avoid this common mistake — _write one clear sentence here._
+Avoid this common mistake — defining a child constructor and forgetting `parent::__construct(...)`, so parent setup never runs.
 
 ---
 
 ## Official reference
 
-[_Link label — add the PHP Manual URL from the lecture outline_](https://www.php.net/manual/en/)
+[PHP Manual — Object Inheritance](https://www.php.net/manual/en/language.oop5.inheritance.php)

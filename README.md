@@ -10,8 +10,8 @@
 ![OOP](https://img.shields.io/badge/Focus-OOP-2563EB?style=for-the-badge)
 ![Source](https://img.shields.io/badge/Source-Official%20PHP%20Manual-059669?style=for-the-badge)
 ![Tracks](https://img.shields.io/badge/Tracks-3-D97706?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Lectures-9%2F31%20Done-2563EB?style=for-the-badge)
-![Current](https://img.shields.io/badge/Current-Lecture%2010-F59E0B?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Lectures-10%2F31%20Done-2563EB?style=for-the-badge)
+![Current](https://img.shields.io/badge/Current-Lecture%2011-F59E0B?style=for-the-badge)
 
 <br/>
 
@@ -88,7 +88,7 @@
 
 | Track | Progress | Status |
 |:---|:---:|:---|
-| 📚 **Lectures** | **9 / 31** | 🟡 In Progress — *Lecture 10 next* |
+| 📚 **Lectures** | **10 / 31** | 🟡 In Progress — *Lecture 11 next* |
 | 💼 **Interview Questions** | **0 / 42** | 🔒 Locked — *starts after Lecture 31* |
 | 🏗️ **Final Project** | **0 / 14 milestones** | 🔒 Locked — *starts after interviews* |
 
@@ -100,7 +100,7 @@
 
 <table align="center">
 <tr>
-<td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td>
+<td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">✅</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td><td align="center">⬜</td>
 </tr>
 <tr>
 <td align="center"><sub>1</sub></td><td align="center"><sub>2</sub></td><td align="center"><sub>3</sub></td><td align="center"><sub>4</sub></td><td align="center"><sub>5</sub></td><td align="center"><sub>6</sub></td><td align="center"><sub>7</sub></td><td align="center"><sub>8</sub></td><td align="center"><sub>9</sub></td><td align="center"><sub>10</sub></td><td align="center"><sub>11</sub></td><td align="center"><sub>12</sub></td><td align="center"><sub>13</sub></td><td align="center"><sub>14</sub></td><td align="center"><sub>15</sub></td><td align="center"><sub>16</sub></td><td align="center"><sub>17</sub></td><td align="center"><sub>18</sub></td><td align="center"><sub>19</sub></td><td align="center"><sub>20</sub></td><td align="center"><sub>21</sub></td><td align="center"><sub>22</sub></td><td align="center"><sub>23</sub></td><td align="center"><sub>24</sub></td><td align="center"><sub>25</sub></td><td align="center"><sub>26</sub></td><td align="center"><sub>27</sub></td><td align="center"><sub>28</sub></td><td align="center"><sub>29</sub></td><td align="center"><sub>30</sub></td><td align="center"><sub>31</sub></td>
@@ -113,8 +113,8 @@
 
 <br/>
 
-> 🎯 **Current focus:** [Lecture 10 — Inheritance](01-Lectures/Part-1-Foundations/Lecture-10-inheritance/)  
-> 🏁 **Last completed:** Lecture 9 — Asymmetric Visibility *(PHP 8.4)*  
+> 🎯 **Current focus:** [Lecture 11 — Method Overriding & `parent`](01-Lectures/Part-2-Core-OOP/Lecture-11-method-overriding/)  
+> 🏁 **Last completed:** Lecture 10 — Inheritance  
 > 🏅 **Milestone 1** *(after Lecture 5)* — ✅ Passed
 
 <br/>
@@ -139,7 +139,7 @@
 | 07 | [`encapsulation`](01-Lectures/Part-1-Foundations/Lecture-07-encapsulation/) | Encapsulation | ✅ |
 | 08 | [`property-hooks`](01-Lectures/Part-1-Foundations/Lecture-08-property-hooks/) | Property Hooks *(PHP 8.4)* | ✅ |
 | 09 | [`asymmetric-visibility`](01-Lectures/Part-1-Foundations/Lecture-09-asymmetric-visibility/) | Asymmetric Visibility *(PHP 8.4)* | ✅ |
-| 10 | [`inheritance`](01-Lectures/Part-1-Foundations/Lecture-10-inheritance/) | Inheritance | 🟡 **Next** |
+| 10 | [`inheritance`](01-Lectures/Part-1-Foundations/Lecture-10-inheritance/) | Inheritance | ✅ |
 
 </details>
 
@@ -152,7 +152,7 @@
 
 | # | Folder | Topic | Status |
 |:---:|:---|:---|:---:|
-| 11 | [`method-overriding`](01-Lectures/Part-2-Core-OOP/Lecture-11-method-overriding/) | Method Overriding & `parent` | ⬜ |
+| 11 | [`method-overriding`](01-Lectures/Part-2-Core-OOP/Lecture-11-method-overriding/) | Method Overriding & `parent` | 🟡 **Next** |
 | 12 | [`static-and-constants`](01-Lectures/Part-2-Core-OOP/Lecture-12-static-and-constants/) | Static & Class Constants | ⬜ |
 | 13 | [`abstract-classes`](01-Lectures/Part-2-Core-OOP/Lecture-13-abstract-classes/) | Abstract Classes | ⬜ |
 | 14 | [`interfaces`](01-Lectures/Part-2-Core-OOP/Lecture-14-interfaces/) | Interfaces | ⬜ |
@@ -378,7 +378,7 @@ Part-3-Modern-PHP/    →  Lectures 21–31
 
 <br/>
 
-> 📊 **My current progress:** **9 / 31** lectures done — next is [Lecture 10 — Inheritance](01-Lectures/Part-1-Foundations/Lecture-10-inheritance/).
+> 📊 **My current progress:** **10 / 31** lectures done — next is [Lecture 11 — Method Overriding & `parent`](01-Lectures/Part-2-Core-OOP/Lecture-11-method-overriding/).
 
 <br/>
 
@@ -531,10 +531,10 @@ Part-3-Modern-PHP/    →  Lectures 21–31
 │   ├── Part-1-Foundations/                    ←    Lectures 01–10
 │   │   ├── Lecture-01-why-not-only-functions/
 │   │   ├── Lecture-05-Milestone-constructor/
-│   │   ├── Lecture-10-inheritance/            ←    🟡 you are here
+│   │   ├── Lecture-10-inheritance/
 │   │   └── ...
 │   ├── Part-2-Core-OOP/                       ←    Lectures 11–20
-│   │   ├── Lecture-11-method-overriding/
+│   │   ├── Lecture-11-method-overriding/      ←    🟡 you are here
 │   │   ├── Lecture-15-Milestone-polymorphism/
 │   │   └── ...
 │   └── Part-3-Modern-PHP/                     ←    Lectures 21–31
