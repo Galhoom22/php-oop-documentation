@@ -123,7 +123,7 @@
 
 <br/>
 
-<details open>
+<details>
 <summary><strong>📗 Part 1 — Foundations</strong> &nbsp;·&nbsp; Lectures 1–10 &nbsp;·&nbsp; <code>Part-1-Foundations/</code></summary>
 
 <br/>
@@ -145,7 +145,7 @@
 
 <br/>
 
-<details>
+<details open>
 <summary><strong>📘 Part 2 — Core OOP</strong> &nbsp;·&nbsp; Lectures 11–20 &nbsp;·&nbsp; <code>Part-2-Core-OOP/</code></summary>
 
 <br/>
