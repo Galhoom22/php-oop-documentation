@@ -1,29 +1,29 @@
-# Lecture 11 — Method Overriding
+# Lecture 11 — Method Overriding & parent
 
-> A child class can replace a parent's method by declaring the same name, and can still call the original with `parent::method()`. That is how you customize behavior without throwing away the parent's work.
+> A child can override a parent method by defining the same method name. Use `parent::methodName()` with the `::` operator when you still need the parent's original behavior.
 
 ---
 
 ## What you learned
 
-1. _Write your first summary point here._
-2. _Write your second summary point here._
-3. _Write your third summary point here._
+1. Overriding means the child defines a method with the same name as the parent, and that child version runs for child objects.
+2. The parent's method is not called automatically after an override — use `parent::methodName()` when you want it.
+3. `::` is the scope resolution operator; `parent::` means “use the parent class’s version.”
 
 ---
 
 ## Key rule
 
-> _Write one clear sentence to remember._
+> Override to change behavior; call `parent::method()` when you still need the original steps.
 
 ---
 
 ## Watch out
 
-Avoid this common mistake — _write one clear sentence here._
+Avoid this common mistake — overriding a method and assuming the parent version still runs by itself.
 
 ---
 
 ## Official reference
 
-[_Link label — add the PHP Manual URL from the lecture outline_](https://www.php.net/manual/en/)
+[PHP Manual — Scope Resolution Operator (::)](https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php)

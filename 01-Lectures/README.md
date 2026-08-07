@@ -55,7 +55,7 @@ Lecture 9  - asymmetric-visibility           ✅  Fine-Tuning Encapsulation (PHP
 Lecture 10 - inheritance                     ✅  Building New Classes from Existing Ones
 
 Part 2 — Core OOP (Lectures 11–20)  →  Part-2-Core-OOP/
-Lecture 11 - method-overriding                   Method Overriding and the parent Keyword
+Lecture 11 - method-overriding               ✅  Method Overriding and the parent Keyword
 Lecture 12 - static-and-constants                The Static Keyword and Class Constants
 Lecture 13 - abstract-classes                    Forcing a Contract on Children
 Lecture 14 - interfaces                          Defining a Capability Without Implementation
