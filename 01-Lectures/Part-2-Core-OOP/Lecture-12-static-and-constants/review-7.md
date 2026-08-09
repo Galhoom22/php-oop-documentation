@@ -1,29 +1,29 @@
-# Lecture 12 — Static and Constants
+# Lecture 12 — Static & Class Constants
 
-> Static members belong to the class itself, not to one object, and are called with `ClassName::`. Class constants are fixed shared values; static properties can change and should be used carefully.
+> Static members belong to the class itself (shared by all objects). Class constants are fixed named values that never change. Access them with `ClassName::` outside and `self::` inside.
 
 ---
 
 ## What you learned
 
-1. _Write your first summary point here._
-2. _Write your second summary point here._
-3. _Write your third summary point here._
+1. A `static` property/method belongs to the class, not to one object — one shared scoreboard.
+2. A class `const` is a fixed value that cannot change after it is defined.
+3. Outside use `ClassName::`; inside the class use `self::` (and remember `$` only for static properties).
 
 ---
 
 ## Key rule
 
-> _Write one clear sentence to remember._
+> Use `static` for shared class-level data/behavior; use `const` for values that must never change.
 
 ---
 
 ## Watch out
 
-Avoid this common mistake — _write one clear sentence here._
+Avoid this common mistake — writing `ClassName::score` without `$` for a static property, or putting `$` on a constant (`ClassName::$NAME`).
 
 ---
 
 ## Official reference
 
-[_Link label — add the PHP Manual URL from the lecture outline_](https://www.php.net/manual/en/)
+[PHP Manual — Static Keyword](https://www.php.net/manual/en/language.oop5.static.php)
