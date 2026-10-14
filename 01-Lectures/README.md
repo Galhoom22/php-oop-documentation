@@ -35,6 +35,8 @@ triggers:
 
 Student profile: no computer science background, knows basic PHP only (variables, functions, arrays, loops, if/else, basic HTML output, how to run a PHP file). Assumes nothing beyond that.
 
+- **Comes after:** [PHP Fundamentals](https://github.com/Galhoom22/php-documentation-), which teaches every prerequisite listed above.
+
 ---
 
 ## Curriculum (31 Lectures, One Per Session)

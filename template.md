@@ -109,6 +109,7 @@ After generating a repo, a search for `{{` outside `template.md` must return no 
 | `{{PROJECT_NAME}}` | Final project name | `SupportDesk Lite` |
 | `{{PROJECT_MILESTONE_COUNT}}` | Final project milestones (from 00) | `15` (00–14) |
 | `{{OUT_OF_SCOPE}}` | Topics explicitly excluded (they belong to another repo) | `Design patterns, SOLID` |
+| `{{PREVIOUS_REPO}}` / `{{PREVIOUS_REPO_URL}}` | The study repo that comes **before** this one, which teaches `{{PREREQUISITES}}`, or `None` | `PHP Fundamentals` / `https://github.com/Galhoom22/php-documentation-` |
 | `{{LAST_VERIFIED_DATE}}` | Date sources were last checked (YYYY-MM-DD) | `2026-10-15` |
 
 ---
@@ -688,6 +689,10 @@ triggers:
 ## Who This Is For
 
 Student profile: {{LEARNER_PROFILE}}. Knows {{PREREQUISITES}}. Assumes nothing beyond that.
+
+- **Comes after:** [{{PREVIOUS_REPO}}]({{PREVIOUS_REPO_URL}}), which teaches every prerequisite listed above.
+
+<!-- Drop the "Comes after" line when {{PREVIOUS_REPO}} is None. -->
 
 ---
 
@@ -1732,6 +1737,7 @@ Sources and freshness
 Structure
 - [ ] Root has exactly: README.md, template.md, .cursor/rules/template-sync.mdc, 01-Lectures/, 02-Interview-Questions/, 03-Final-Project/ (+ optional .gitignore).
 - [ ] `template.md` has a `Template last synced` date at the top.
+- [ ] `01-Lectures/README.md` links to {{PREVIOUS_REPO}} under "Who This Is For" (unless it is None).
 - [ ] Every lecture folder exists with the correct `Lecture-NN-slug` name inside the correct part.
 - [ ] Milestone lectures use `Lecture-NN-Milestone-slug` and match {{MILESTONE_LECTURES}}.
 - [ ] Every question folder exists with its README.md.
@@ -1770,6 +1776,7 @@ You are generating a study repository using the attached template.md exactly.
 SUBJECT: <e.g. Design Patterns in PHP>
 LEARNER PROFILE: <e.g. knows PHP OOP well, no design-pattern experience>
 PREREQUISITES: <e.g. PHP 8.5 OOP: classes, interfaces, abstract classes, traits>
+PREVIOUS REPO: <name + URL of the repo that teaches the prerequisites, or None>
 OUT OF SCOPE: <e.g. framework-specific implementations, architecture styles>
 PRACTICE LANGUAGE / FILE EXTENSION: <e.g. PHP / php>  (use md for non-technical subjects)
 PREFERRED SIZE: <small | medium | large | let the template decide>
