@@ -109,7 +109,10 @@ After generating a repo, a search for `{{` outside `template.md` must return no 
 | `{{PROJECT_NAME}}` | Final project name | `SupportDesk Lite` |
 | `{{PROJECT_MILESTONE_COUNT}}` | Final project milestones (from 00) | `15` (00–14) |
 | `{{OUT_OF_SCOPE}}` | Topics explicitly excluded (they belong to another repo) | `Design patterns, SOLID` |
+| `{{SERIES_NAME}}` | Ordered list of the repos in the learning series this repo belongs to. Leave the series parts out if the repo is standalone | `PHP Fundamentals → PHP OOP → OOD` |
+| `{{SERIES_POSITION}}` | Ordinal position of this repo in the series | `second` |
 | `{{PREVIOUS_REPO}}` / `{{PREVIOUS_REPO_URL}}` | The study repo that comes **before** this one, which teaches `{{PREREQUISITES}}`, or `None` | `PHP Fundamentals` / `https://github.com/Galhoom22/php-documentation-` |
+| `{{NEXT_REPO}}` / `{{NEXT_REPO_URL}}` | The study repo that comes **after** this one (plain text without a link until it exists), or `None` | `OOD` |
 | `{{LAST_VERIFIED_DATE}}` | Date sources were last checked (YYYY-MM-DD) | `2026-10-15` |
 
 ---
@@ -310,12 +313,12 @@ It is the only file that uses decorative emojis and ASCII boxes. Other files use
 
 ### Required sections (in this exact order)
 
-1. Centered header: title, subtitle, badges, ASCII banner, one-line purpose, quick links.
+1. Centered header: title, subtitle, badges, ASCII banner, one-line purpose (+ series position when part of a series), quick links.
 2. 📑 Table of Contents.
 3. 📊 My Progress — overall status table, lecture progress grid, progress bar, current focus, per-part tables (collapsible), milestones table, sync note.
 4. 🎯 Purpose.
 5. 👤 Who This Is For.
-6. 🗺️ Learning Path.
+6. 🗺️ Learning Path (+ 🔗 Series table when part of a series; links must go both ways — previous repo links here, this repo links back).
 7. 📚 Track 1 — Lectures.
 8. 💼 Track 2 — Interview Questions.
 9. 🏗️ Track 3 — Final Project.
@@ -362,6 +365,8 @@ It is the only file that uses decorative emojis and ASCII boxes. Other files use
 > with **{{SUBJECT_VERSION}}**. All lectures follow the
 > [**official {{PRIMARY_SOURCE_NAME}}**]({{PRIMARY_SOURCE_URL}}),
 > with interview questions and a final project to master it all.
+> It is the **{{SERIES_POSITION}} link** in a series: {{SERIES_NAME}}.
+<!-- Series line only: link every other repo in {{SERIES_NAME}}, bold this one. Delete it for a standalone repo. -->
 
 <br/>
 
@@ -487,6 +492,18 @@ It is the only file that uses decorative emojis and ASCII boxes. Other files use
 
 > ⚠️ **Complete the tracks in order.** Each track builds on the previous one.
 
+### 🔗 Series — no repeated lessons
+
+<!-- Only when part of a series. One row per repo in {{SERIES_NAME}}; link the others, bold this one. -->
+
+| Order | Repository | Covers |
+|:---:|:---|:---|
+| **1** | [{{PREVIOUS_REPO}}]({{PREVIOUS_REPO_URL}}) | {{one-line scope}} |
+| **2** | **{{SUBJECT}}** *(this repo)* | {{one-line scope}} |
+| **3** | [{{NEXT_REPO}}]({{NEXT_REPO_URL}}) | {{one-line scope}} |
+
+> 🧭 Each repo continues where the previous one stops. A topic taught in one repo is **never** re-taught in another.
+
 ---
 
 ## 📚 Track 1 — Lectures
@@ -564,10 +581,14 @@ Part-3-{{PART_3_NAME}}/   →  Lectures NN–{{LECTURE_COUNT}}
 
 | Step | Action | Where |
 |:---:|:---|:---|
+| **0️⃣** | ⬅️ New to the prerequisites? Finish the previous repo in the series first | [{{PREVIOUS_REPO}}]({{PREVIOUS_REPO_URL}}) |
 | **1️⃣** | 📖 Open the lecture guide and start **Lecture 01** | [`01-Lectures/`](01-Lectures/) |
 | **2️⃣** | ✍️ Type each example into that lecture’s `code-N.{{FILE_EXT}}` files — one session at a time | Lecture folder |
 | **3️⃣** | 💼 After all lectures, practice interview answers | [`02-Interview-Questions/`](02-Interview-Questions/) |
 | **4️⃣** | 🏗️ Build the capstone when interviews are done | [`03-Final-Project/`](03-Final-Project/) |
+| **5️⃣** | ➡️ Continue the series with [{{NEXT_REPO}}]({{NEXT_REPO_URL}}) | Next repository |
+
+<!-- Delete step 0️⃣ for the first repo in a series, step 5️⃣ for the last, and both for a standalone repo. -->
 
 > ✍️ **Remember:** You write all the code. The guides teach; your practice files live inside each lecture folder.
 
@@ -584,7 +605,7 @@ Part-3-{{PART_3_NAME}}/   →  Lectures NN–{{LECTURE_COUNT}}
 ## ⚙️ Requirements
 
 - {{SUBJECT_EMOJI}} **{{SUBJECT_VERSION}}**
-- 📖 {{PREREQUISITES}}
+- 📖 {{PREREQUISITES}} <sub>(covered in [{{PREVIOUS_REPO}}]({{PREVIOUS_REPO_URL}}) when part of a series)</sub>
 - 💻 {{local environment needed}}
 - 📦 {{TEST_TOOL}} and {{other tools}} <sub>(introduced later)</sub>
 
@@ -1756,6 +1777,7 @@ Content
 Consistency
 - [ ] Counts match everywhere (lectures, questions, milestones) in all four README files.
 - [ ] All relative links in the root README resolve to real folders.
+- [ ] If the repo is part of a series: the root README has the series line and 🔗 Series table, and the previous repo's README links to this repo (links go both ways).
 - [ ] Progress dashboard starts at 0 with Lecture 01 marked as Next.
 - [ ] Part count matches {{PART_COUNT}} everywhere (no leftover Part-3 block in a 2-part repo, no missing Part-4 block).
 - [ ] Every Table of Contents anchor link works on GitHub.
@@ -1778,6 +1800,7 @@ LEARNER PROFILE: <e.g. knows PHP OOP well, no design-pattern experience>
 PREREQUISITES: <e.g. PHP 8.5 OOP: classes, interfaces, abstract classes, traits>
 PREVIOUS REPO: <name + URL of the repo that teaches the prerequisites, or None>
 OUT OF SCOPE: <e.g. framework-specific implementations, architecture styles>
+SERIES (optional): <e.g. PHP Fundamentals (url) → PHP OOP (url) → Design Patterns (this repo)>
 PRACTICE LANGUAGE / FILE EXTENSION: <e.g. PHP / php>  (use md for non-technical subjects)
 PREFERRED SIZE: <small | medium | large | let the template decide>
 
@@ -1803,8 +1826,10 @@ Rules:
    - Keep template.md in the repo root and set its "Template last synced" date to today
 5. Do NOT create any learner practice files (code-N, review-N.md, notes.md, Milestone/, src/, tests/).
 6. Follow every naming convention in Section 7.
-7. Finish by running the Repository Creation Checklist in Section 16 and report any item that failed.
-8. From now on, follow the Template Sync Rule (Section 18): any change to structure, conventions,
+7. If SERIES is given, fill the series line, 🔗 Series table, and How to Start steps 0/5 in the root
+   README, and remind me to add a link to this repo in the previous repo's README.
+8. Finish by running the Repository Creation Checklist in Section 16 and report any item that failed.
+9. From now on, follow the Template Sync Rule (Section 18): any change to structure, conventions,
    or method must update template.md in the same change.
 ````
 
