@@ -59,6 +59,7 @@
 | 📁 | [Repository Structure](#-repository-structure) | Folder map |
 | ⚙️ | [Requirements](#-requirements) | What you need |
 | 🔗 | [Official Sources](#-official-sources) | Trusted references |
+| 🔄 | [Version History](#-version-history) | How the repo follows new PHP releases |
 
 <br/>
 
@@ -604,6 +605,31 @@ Part-3-Modern-PHP/    →  Lectures 21–31
 | 🐘 PHP Manual — OOP | [php.net/manual/en/oop5.intro.php](https://www.php.net/manual/en/oop5.intro.php) |
 | 📖 PHP Language Reference | [php.net/manual/en/langref.php](https://www.php.net/manual/en/langref.php) |
 | 🧪 PHPUnit Documentation | [docs.phpunit.de](https://docs.phpunit.de/) |
+
+<br/>
+
+> 🗓️ **Last verified:** 2026-10-15 against PHP 8.5.
+
+<br/>
+
+---
+
+<br/>
+
+## 🔄 Version History
+
+<br/>
+
+> ♻️ **This is a living repository.** It always follows the latest stable PHP release.
+> When a new version is released (for example **PHP 8.6**), its OOP-related changes are added here —
+> new lectures, updated outlines, new interview questions — following the Version Update Policy in
+> [`template.md`](template.md) (Section 19). Existing lecture numbers and your own files never change.
+
+<br/>
+
+| Version | Date | What changed |
+|:---|:---:|:---|
+| PHP 8.5 | 2026-06-21 | Baseline — 31 lectures, 42 interview questions, final project |
 
 <br/>
 

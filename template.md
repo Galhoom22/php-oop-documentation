@@ -31,6 +31,7 @@
 16. [Repository Creation Checklist](#16-repository-creation-checklist)
 17. [Ready-to-Paste AI Prompt (Generate a New Repo)](#17-ready-to-paste-ai-prompt-generate-a-new-repo)
 18. [Template Sync Rule (Keep This File a Mirror)](#18-template-sync-rule-keep-this-file-a-mirror)
+19. [Living Repository: Version Update Policy](#19-living-repository-version-update-policy)
 
 ---
 
@@ -134,6 +135,8 @@ These principles are copied into every repository and never change between subje
 13. **Strict scope:** each repo covers one subject. Neighboring subjects get a one-sentence answer and a redirect.
 14. **20/80 focus:** teach the 20% of concepts that deliver 80% of real-world use first.
     Rare and edge-case features come late or are left out.
+15. **Living repository:** the repo always tracks the latest stable version. Every new stable release
+    is reviewed and its changes are added to the same repo (see [Section 19](#19-living-repository-version-update-policy)).
 
 ---
 
@@ -161,7 +164,8 @@ Not allowed as the only source: random blog posts, unverified tutorials, AI-gene
 - Mark version-specific features in titles, for example `Property Hooks (PHP 8.4)`.
 - Prefer modern idioms over legacy ones. When a legacy approach is still common in real code, show it once, label it as legacy, then show the modern way.
 - Record `Last verified: {{LAST_VERIFIED_DATE}}` in the root README under Official Sources.
-- When a new major version is released mid-study, update the outline only for lectures not yet completed.
+- The repository is a **living repository**: when a new stable version is released, the repo is updated
+  to cover it. Follow the Version Update Policy in [Section 19](#19-living-repository-version-update-policy).
 
 ### 4.3 Citation rules
 
@@ -283,6 +287,9 @@ templates list parts (root README progress, Track 1 table, curriculum, folder st
 | Question folder | `Question-NN-kebab-question-summary/` | `Question-22-abstract-class-vs-interface/` |
 | Question notes | `notes.md` | — |
 | Project milestones | `Milestone NN - Title` (starting at `00`) | `Milestone 03 - Enums and Safe State` |
+| Version update part | `Part-N-Version-Updates/` (created on the first version update) | `Part-4-Version-Updates/` |
+| Version update lecture | `Lecture-NN-vX-Y-kebab-topic/` (next free number) | `Lecture-32-v8-6-new-feature/` |
+| Version update card (in a completed lecture) | `update-vX-Y.md` | `update-v8-6.md` |
 
 Rules:
 
@@ -315,7 +322,8 @@ It is the only file that uses decorative emojis and ASCII boxes. Other files use
 11. 📁 Repository Structure.
 12. ⚙️ Requirements.
 13. 🔗 Official Sources (with `Last verified` date).
-14. Centered footer.
+14. 🔄 Version History (living-repository log, see Section 19).
+15. Centered footer.
 
 ### Template
 
@@ -377,6 +385,7 @@ It is the only file that uses decorative emojis and ASCII boxes. Other files use
 | 📁 | [Repository Structure](#-repository-structure) | Folder map |
 | ⚙️ | [Requirements](#-requirements) | What you need |
 | 🔗 | [Official Sources](#-official-sources) | Trusted references |
+| 🔄 | [Version History](#-version-history) | How the repo follows new releases |
 
 ---
 
@@ -592,6 +601,18 @@ Part-3-{{PART_3_NAME}}/   →  Lectures NN–{{LECTURE_COUNT}}
 <!-- Add one row per entry in {{SECONDARY_SOURCES}}. -->
 
 > 🗓️ **Last verified:** {{LAST_VERIFIED_DATE}} against {{SUBJECT_VERSION}}.
+
+---
+
+## 🔄 Version History
+
+> ♻️ **This is a living repository.** It always follows the latest stable {{LANGUAGE_OR_TOOL}} release.
+> When a new version is released, its changes are added here — new lectures, updated outlines,
+> new interview questions — following the Version Update Policy in [`template.md`](template.md) (Section 19).
+
+| Version | Date | What changed |
+|:---|:---:|:---|
+| {{SUBJECT_VERSION}} | {{LAST_VERIFIED_DATE}} | Baseline — repository created |
 
 ---
 
@@ -1678,6 +1699,11 @@ When a unit is completed (after the learner passes the CHECK), update **all** of
 1. `03-Final-Project/README.md` → ✅ in the Progress block; update the status line.
 2. Root `README.md` → Overall Status and the Track 3 progress table.
 
+### After a version update
+
+Follow [Section 19.4](#194-update-steps) — it lists every file to update. Lecture, question, and milestone
+counts change, so update every total (`X / Total`) and badge in the root `README.md`.
+
 ### Suggested commit messages
 
 ```
@@ -1685,6 +1711,7 @@ lecture: complete Lecture NN - {{topic}}
 interview: complete Question NN - {{slug}}
 project: complete Milestone NN - {{title}}
 docs: update progress dashboard
+version: update to {{LANGUAGE_OR_TOOL}} X.Y
 ```
 
 ---
@@ -1700,6 +1727,7 @@ Sources and freshness
 - [ ] Every question README ends with a `Source:` / `Sources:` line.
 - [ ] No deprecated feature is taught as the main approach.
 - [ ] `Last verified` date written in the root README.
+- [ ] Root README has the 🔄 Version History section with the baseline row.
 
 Structure
 - [ ] Root has exactly: README.md, template.md, .cursor/rules/template-sync.mdc, 01-Lectures/, 02-Interview-Questions/, 03-Final-Project/ (+ optional .gitignore).
@@ -1793,9 +1821,14 @@ Final project:
 Mark progress (after I pass the CHECK):
   Apply the Progress Update Protocol in template.md Section 15 for Lecture NN / Question NN / Milestone NN.
 
-Refresh sources (when a new version is released):
-  Check the official release notes for {{SUBJECT}}. List new, changed, and deprecated features that affect
-  lectures I have not completed yet, propose outline updates, and update the Last verified date.
+Version update (when a new stable version is released):
+  Apply the Version Update Policy in template.md Section 19 for version X.Y.
+  Read the official release notes and migration guide first, show me the classified change list,
+  then apply the updates after I confirm.
+
+Check for a new version (any time):
+  Check the official releases page of {{SUBJECT}}. Is there a stable version newer than the one
+  in the root README? If yes, list its highlights; if no, update the Last verified date only.
 
 Sync the template (after changing structure, conventions, or method):
   Apply the Template Sync Rule in template.md Section 18. Compare the repo with template.md,
@@ -1829,6 +1862,7 @@ spreads old structure and old rules into every future repo. Therefore:
 | New required file, tool, or check | Sections 6, 16, 17 |
 | A new placeholder | Section 2 |
 | This rule file changes | Section 18.3 |
+| How new versions are added to the repo | Section 19 |
 
 ### 18.2 What does NOT trigger an update
 
@@ -1900,3 +1934,78 @@ Run this whenever you are unsure whether the template is still accurate:
 If a future repo improves the method (a better rule, a clearer file format, a new useful check),
 apply the same improvement to `template.md` in that repo **and** to your master copy of `template.md`,
 so the next repository starts from the best version.
+
+---
+
+## 19. Living Repository: Version Update Policy
+
+> **Rule:** every repository built from this template is a **living repository**. Its goal is to stay
+> current forever. When a new stable version of the subject is released (for example PHP 8.5 → PHP 8.6),
+> the new and changed material is added to **the same repository** — never to a new one.
+
+### 19.1 When to update
+
+- **Trigger:** a new **stable** release (major or minor) of the subject, or an official standard/spec revision.
+- **Not a trigger:** alpha, beta, or RC releases; patch releases that only fix bugs or security issues
+  (only refresh the `Last verified` date for those).
+- **Regular check:** at least once per release cycle (for PHP, new minor versions ship every November),
+  run the "Check for a new version" prompt in [Section 17](#17-ready-to-paste-ai-prompt-generate-a-new-repo).
+
+### 19.2 Sources for the update
+
+Use only official sources (Section 4), in this order:
+
+1. The official release announcement and release notes.
+2. The official migration guide / upgrade notes (for PHP: `php.net/manual/en/migrationXY.php` and `UPGRADING`).
+3. The updated pages of the official documentation for each changed feature.
+
+### 19.3 Classify every change
+
+Before editing anything, list every change from the release notes and classify it:
+
+| Type | Meaning | Action |
+|:---|:---|:---|
+| **New feature (in scope, important)** | A new capability learners will use in real code | Add a **new lecture** (19.4 step 3) or a new section in the matching lecture outline if it is small |
+| **New feature (in scope, minor)** | Small addition or convenience | Add one bullet to the matching lecture outline, marked `(X.Y)` |
+| **Changed behavior** | Existing feature now behaves differently | Update the matching lecture outline and add an update card for completed lectures |
+| **Deprecated** | Still works but will be removed | Mark it `Deprecated in X.Y` in the outline; teach the replacement as the main approach |
+| **Removed** | No longer works | Remove it from the outline or move it to a one-line "legacy" note; update any questions or project milestones that relied on it |
+| **Out of scope** | Not related to this repo's subject | Ignore; note it in the Version History row only if useful |
+
+Apply the 20/80 principle: only important, commonly used features get a full lecture.
+
+### 19.4 Update steps
+
+1. **Classify** all changes using 19.3 and show the list before editing.
+2. **Existing lectures:** update the matching outlines in `01-Lectures/README.md`. Put the version in the bullet,
+   for example `- Show the new X syntax (8.6)`. Update the Analogy Bank and glossary if a new term appears.
+3. **New lectures:** never renumber or move existing lectures, because links, progress, and completed folders
+   depend on their numbers. Append new lectures with the next free numbers inside
+   `01-Lectures/Part-N-Version-Updates/` (created on the first update), named `Lecture-NN-vX-Y-topic/`.
+   Each new lecture uses the normal outline format and ends with its official reference.
+4. **Completed lectures that changed:** do not rewrite the learner's `code-N` or `review-N.md` files.
+   Instead, the learner studies a short update session and writes `update-vX-Y.md` inside that lecture folder,
+   using the study-card format (title `Lecture NN — Update for X.Y`, what changed, key rule, watch out,
+   official reference last). New example code for that session continues the numbering (`code-7`, `code-8`, ...).
+5. **Interview questions:** append new questions with the next free numbers for important new features,
+   add them to the progress list and the Question Source Map, and create their folder `README.md`.
+   Update the "A Strong Answer Should Cover" points of existing questions whose answers changed.
+6. **Final project:** if a new feature fits the project naturally, add an optional milestone at the end
+   (`Milestone NN - Version X.Y Features`) and add it to the Concept Coverage Checklist.
+7. **Version everywhere:** update the version in the root `README.md` (badges, intro, Requirements),
+   the track `README.md` titles and front matter, and the Code Standards version rule.
+8. **Counts and progress:** update every total (lectures, questions, milestones) in all README files.
+   New lectures start as ⬜. If the learner had already finished the track, the track goes back to
+   🟡 In Progress until the new units are done.
+9. **Version History:** add a row to the root `README.md` Version History table:
+   `| X.Y | YYYY-MM-DD | New lectures NN–NN, updated lectures NN, NN, new questions NN–NN, deprecated: ... |`.
+10. **Last verified:** update the `Last verified` date and version in Official Sources.
+11. **Template sync:** if the update changed structure or method, update this `template.md` (Section 18).
+
+### 19.5 Rules that never change during an update
+
+- Existing lecture, question, and milestone numbers never change.
+- Learner-written files are never edited or deleted by the update.
+- Every new or changed item has an official source link.
+- The repo targets one version at a time: the latest stable one. Older-version behavior appears only
+  as short "before X.Y" notes when it helps the learner read older code.
