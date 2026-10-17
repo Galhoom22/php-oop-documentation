@@ -109,14 +109,10 @@ After generating a repo, a search for `{{` outside `template.md` must return no 
 | `{{PROJECT_NAME}}` | Final project name | `SupportDesk Lite` |
 | `{{PROJECT_MILESTONE_COUNT}}` | Final project milestones (from 00) | `15` (00–14) |
 | `{{OUT_OF_SCOPE}}` | Topics explicitly excluded (they belong to another repo) | `Design patterns, SOLID` |
-<<<<<<< Updated upstream
 | `{{SERIES_NAME}}` | Ordered list of the repos in the learning series this repo belongs to. Leave the series parts out if the repo is standalone | `PHP Fundamentals → PHP OOP → OOD` |
 | `{{SERIES_POSITION}}` | Ordinal position of this repo in the series | `second` |
 | `{{PREVIOUS_REPO}}` / `{{PREVIOUS_REPO_URL}}` | The study repo that comes **before** this one, which teaches `{{PREREQUISITES}}`, or `None` | `PHP Fundamentals` / `https://github.com/galhoom-study-method/php-fundamentals` |
 | `{{NEXT_REPO}}` / `{{NEXT_REPO_URL}}` | The study repo that comes **after** this one (plain text without a link until it exists), or `None` | `OOD` |
-=======
-| `{{PREVIOUS_REPO}}` / `{{PREVIOUS_REPO_URL}}` | The study repo that comes **before** this one, which teaches `{{PREREQUISITES}}`, or `None` | `PHP Fundamentals` / `https://github.com/galhoom-study-method/php-fundamentals` |
->>>>>>> Stashed changes
 | `{{LAST_VERIFIED_DATE}}` | Date sources were last checked (YYYY-MM-DD) | `2026-10-15` |
 
 ---
